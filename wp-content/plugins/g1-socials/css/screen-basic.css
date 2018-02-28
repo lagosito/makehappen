@@ -1,0 +1,405 @@
+/* line 3, ../sass/screen-basic.scss */
+.g1-socials-item-link {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0 !important;
+  text-decoration: none;
+}
+
+/* line 12, ../sass/screen-basic.scss */
+.g1-socials-item-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font: 14px/32px FontAwesome;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  color: #fff;
+}
+
+/* line 27, ../sass/screen-basic.scss */
+.g1-socials-item-icon-48 {
+  width: 48px;
+  height: 48px;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+/* line 34, ../sass/screen-basic.scss */
+.g1-socials-item-icon-64 {
+  width: 64px;
+  height: 64px;
+  font-size: 42px;
+  line-height: 64px;
+}
+
+/* line 41, ../sass/screen-basic.scss */
+.g1-socials-item-icon-behance:before {
+  content: "\f1b4";
+}
+
+/* line 42, ../sass/screen-basic.scss */
+.g1-socials-item-icon-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 43, ../sass/screen-basic.scss */
+.g1-socials-item-icon-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 44, ../sass/screen-basic.scss */
+.g1-socials-item-icon-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 45, ../sass/screen-basic.scss */
+.g1-socials-item-icon-digg:before {
+  content: "\f1a6";
+}
+
+/* line 46, ../sass/screen-basic.scss */
+.g1-socials-item-icon-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 47, ../sass/screen-basic.scss */
+.g1-socials-item-icon-facebook:before {
+  content: "\f09a";
+}
+
+/* line 48, ../sass/screen-basic.scss */
+.g1-socials-item-icon-flickr:before {
+  content: "\f16e";
+}
+
+/* line 49, ../sass/screen-basic.scss */
+.g1-socials-item-icon-foursquare:before {
+  content: "\f180";
+}
+
+/* line 50, ../sass/screen-basic.scss */
+.g1-socials-item-icon-github:before {
+  content: "\f09b";
+}
+
+/* line 51, ../sass/screen-basic.scss */
+.g1-socials-item-icon-googleplus:before {
+  content: "\f0d5";
+}
+
+/* line 52, ../sass/screen-basic.scss */
+.g1-socials-item-icon-instagram:before {
+  content: "\f16d";
+}
+
+/* line 53, ../sass/screen-basic.scss */
+.g1-socials-item-icon-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 54, ../sass/screen-basic.scss */
+.g1-socials-item-icon-lastfm:before {
+  content: "\f202";
+}
+
+/* line 55, ../sass/screen-basic.scss */
+.g1-socials-item-icon-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 56, ../sass/screen-basic.scss */
+.g1-socials-item-icon-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 57, ../sass/screen-basic.scss */
+.g1-socials-item-icon-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 58, ../sass/screen-basic.scss */
+.g1-socials-item-icon-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 59, ../sass/screen-basic.scss */
+.g1-socials-item-icon-snapchat:before {
+  content: "\f2ac";
+}
+
+/* line 60, ../sass/screen-basic.scss */
+.g1-socials-item-icon-stackoverflow:before {
+  content: "\f16c";
+}
+
+/* line 61, ../sass/screen-basic.scss */
+.g1-socials-item-icon-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 62, ../sass/screen-basic.scss */
+.g1-socials-item-icon-tumblr:before {
+  content: "\f173";
+}
+
+/* line 63, ../sass/screen-basic.scss */
+.g1-socials-item-icon-twitter:before {
+  content: "\f099";
+}
+
+/* line 64, ../sass/screen-basic.scss */
+.g1-socials-item-icon-vimeo:before {
+  content: "\f194";
+}
+
+/* line 65, ../sass/screen-basic.scss */
+.g1-socials-item-icon-vine:before {
+  content: "\f1ca";
+}
+
+/* line 66, ../sass/screen-basic.scss */
+.g1-socials-item-icon-xing:before {
+  content: "\f168";
+}
+
+/* line 67, ../sass/screen-basic.scss */
+.g1-socials-item-icon-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 68, ../sass/screen-basic.scss */
+.g1-socials-item-icon-youtube:before {
+  content: "\f167";
+}
+
+/* line 71, ../sass/screen-basic.scss */
+.g1-socials-item-icon-behance {
+  background-color: #1769ff;
+}
+
+/* line 72, ../sass/screen-basic.scss */
+.g1-socials-item-icon-codepen {
+  background-color: #231f20;
+}
+
+/* line 73, ../sass/screen-basic.scss */
+.g1-socials-item-icon-delicious {
+  background-color: #3274d1;
+}
+
+/* line 74, ../sass/screen-basic.scss */
+.g1-socials-item-icon-deviantart {
+  background-color: #4b5d50;
+}
+
+/* line 75, ../sass/screen-basic.scss */
+.g1-socials-item-icon-digg {
+  background-color: #14589e;
+}
+
+/* line 76, ../sass/screen-basic.scss */
+.g1-socials-item-icon-dribbble {
+  background-color: #ea4c89;
+}
+
+/* line 77, ../sass/screen-basic.scss */
+.g1-socials-item-icon-facebook {
+  background-color: #3b5998;
+}
+
+/* line 78, ../sass/screen-basic.scss */
+.g1-socials-item-icon-flickr {
+  background-color: #0063db;
+}
+
+/* line 79, ../sass/screen-basic.scss */
+.g1-socials-item-icon-foursquare {
+  background-color: #2398c9;
+}
+
+/* line 80, ../sass/screen-basic.scss */
+.g1-socials-item-icon-github {
+  background-color: #4183c4;
+}
+
+/* line 81, ../sass/screen-basic.scss */
+.g1-socials-item-icon-googleplus {
+  background-color: #d14836;
+}
+
+/* line 82, ../sass/screen-basic.scss */
+.g1-socials-item-icon-instagram {
+  background-color: #3f729b;
+}
+
+/* line 83, ../sass/screen-basic.scss */
+.g1-socials-item-icon-jsfiddle {
+  background-color: #4679a4;
+}
+
+/* line 84, ../sass/screen-basic.scss */
+.g1-socials-item-icon-lastfm {
+  background-color: #d51007;
+}
+
+/* line 85, ../sass/screen-basic.scss */
+.g1-socials-item-icon-linkedin {
+  background-color: #007fb1;
+}
+
+/* line 86, ../sass/screen-basic.scss */
+.g1-socials-item-icon-pinterest {
+  background-color: #cb2027;
+}
+
+/* line 87, ../sass/screen-basic.scss */
+.g1-socials-item-icon-reddit {
+  background-color: #ff4500;
+}
+
+/* line 88, ../sass/screen-basic.scss */
+.g1-socials-item-icon-slideshare {
+  background-color: #009999;
+}
+
+/* line 89, ../sass/screen-basic.scss */
+.g1-socials-item-icon-snapchat {
+  background-color: #fffc00;
+  color: #000;
+}
+
+/* line 90, ../sass/screen-basic.scss */
+.g1-socials-item-icon-stackoverflow {
+  background-color: #f47920;
+}
+
+/* line 91, ../sass/screen-basic.scss */
+.g1-socials-item-icon-stumbleupon {
+  background-color: #eb4924;
+}
+
+/* line 92, ../sass/screen-basic.scss */
+.g1-socials-item-icon-tumblr {
+  background-color: #2c4762;
+}
+
+/* line 93, ../sass/screen-basic.scss */
+.g1-socials-item-icon-twitter {
+  background-color: #39a9e0;
+}
+
+/* line 94, ../sass/screen-basic.scss */
+.g1-socials-item-icon-vimeo {
+  background-color: #44bbff;
+}
+
+/* line 95, ../sass/screen-basic.scss */
+.g1-socials-item-icon-vine {
+  background-color: #00a47a;
+}
+
+/* line 96, ../sass/screen-basic.scss */
+.g1-socials-item-icon-xing {
+  background-color: #006567;
+}
+
+/* line 97, ../sass/screen-basic.scss */
+.g1-socials-item-icon-yelp {
+  background-color: #c93c27;
+}
+
+/* line 98, ../sass/screen-basic.scss */
+.g1-socials-item-icon-youtube {
+  background-color: #cd332d;
+}
+
+/* line 100, ../sass/screen-basic.scss */
+.g1-socials-item-icon-text {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Tooltips */
+/* line 106, ../sass/screen-basic.scss */
+.g1-socials-item-tooltip {
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 260px;
+  margin-bottom: 10px;
+  font: 12px/1.2 sans-serif;
+  text-align: center;
+  -moz-transform: translate(0, -20px);
+  -ms-transform: translate(0, -20px);
+  -webkit-transform: translate(0, -20px);
+  transform: translate(0, -20px);
+  -moz-transition: -moz-transform 0.375s ease-in-out;
+  -o-transition: -o-transform 0.375s ease-in-out;
+  -webkit-transition: -webkit-transform 0.375s ease-in-out;
+  transition: transform 0.375s ease-in-out;
+}
+
+/* line 125, ../sass/screen-basic.scss */
+.g1-socials-item-tooltip-inner {
+  display: inline-block;
+  position: relative;
+  left: -50%;
+  padding: 6px 8px;
+  white-space: nowrap;
+  border-color: black;
+  border-color: rgba(0, 0, 0, 0.666);
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.666);
+  color: #fff;
+  /* Arrow */
+}
+/* line 140, ../sass/screen-basic.scss */
+.g1-socials-item-tooltip-inner:after {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -6px;
+  border-width: 6px;
+  content: "";
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: inherit;
+}
+
+/* line 159, ../sass/screen-basic.scss */
+.g1-socials-item-link:hover .g1-socials-item-tooltip {
+  visibility: visible;
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+/* line 264, ../sass/screen-basic.scss */
+.g1-socials-items {
+  max-width: 100%;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+/* Grid template */
+/* line 274, ../sass/screen-basic.scss */
+.g1-socials-items-tpl-grid {
+  font-size: 0;
+}
+/* line 277, ../sass/screen-basic.scss */
+.g1-socials-items-tpl-grid .g1-socials-item {
+  display: inline-block;
+  font-size: 1rem;
+}

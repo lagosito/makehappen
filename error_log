@@ -1,0 +1,6 @@
+[22-Dec-2017 02:37:02 America/Chicago] PHP Fatal error:  Call to undefined function wp() in /home3/demo4zke/public_html/dev4/makehappen/wp-blog-header.php on line 16
+[22-Dec-2017 02:37:05 America/Chicago] PHP Fatal error:  Call to undefined function wp() in /home3/demo4zke/public_html/dev4/makehappen/wp-blog-header.php on line 16
+[22-Dec-2017 02:41:22 America/Chicago] PHP Fatal error:  Call to undefined function wp() in /home3/demo4zke/public_html/dev4/makehappen/wp-blog-header.php on line 16
+[22-Dec-2017 08:43:59 UTC] PHP Warning:  require(/home3/demo4zke/public_html/dev4/makehappen/wp-includes/class-wp-query.php): failed to open stream: No such file or directory in /home3/demo4zke/public_html/dev4/makehappen/wp-settings.php on line 150
+[22-Dec-2017 08:43:59 UTC] PHP Fatal error:  require(): Failed opening required '/home3/demo4zke/public_html/dev4/makehappen/wp-includes/class-wp-query.php' (include_path='.:/opt/php56/lib/php') in /home3/demo4zke/public_html/dev4/makehappen/wp-settings.php on line 150
+[22-Dec-2017 08:44:53 UTC] PHP Fatal error:  Call to undefined function wp_start_scraping_edited_file_errors() in /home3/demo4zke/public_html/dev4/makehappen/wp-settings.php on line 297

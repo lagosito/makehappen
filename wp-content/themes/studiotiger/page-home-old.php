@@ -1,0 +1,284 @@
+<?php /* Template Name: Homepage Old */ ?>
+<?php get_header(); ?>
+<!-- Header -->
+<header class="header">
+  <div class="container" id="maincontent" tabindex="-1">
+    <div class="row">
+      <div class="col-lg-12"> 
+			<div class="banner-text">
+            	<!--<div class="banner-big-text">
+                	<h1>We like <br><span class="dark-text"> challenges </span></h1>
+                </div>-->
+				
+				<div class="sentence">
+	 <?php echo ot_get_option('banner_text'); ?>
+</div> 
+
+                
+                <div class="detail-text">
+                	<p>
+                	 <?php echo ot_get_option('detail_text'); ?>
+                    </p>
+                </div>
+         <div class="banner-btn">
+                		<div class="left-btn">
+                            <div class="round-btn-box">
+            					<a class="rounded-btn" href="<?php  echo esc_url( get_permalink(135) ); ?>"><?php esc_html_e( 'plan a project', 'studiotiger' ); ?>
+ <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+               				</div>
+                            <div class="small-text">
+                            	<span><?php esc_html_e( 'Submit a project profile', 'studiotiger' ); ?></span>
+                            </div>
+                       </div>
+                       <div class="or-btn">
+                            <div class="or-box">
+                                <p><?php esc_html_e( 'or', 'studiotiger' ); ?></p>
+                            </div>
+                    	</div>
+                        
+                        <div class="right-btn">
+                            <div class="round-btn-box">
+            					<a class="rounded-btn" href="#"><?php esc_html_e( 'chat with gabibot', 'studiotiger' ); ?><i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+               				</div>
+                            <div class="small-text">
+                            	<span><?php esc_html_e( 'Half Gabi half bot', 'studiotiger' ); ?></span>
+                            </div>
+                    	</div>
+                </div>
+            </div>
+            
+            <!--<div class="button-scroll" data-scrollto="about"><span></span></div>-->
+            
+            
+            <div class="magic-mouse scroll vertical presantion">
+	<i>↑↓</i>
+</div>
+
+
+     </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- what-we-do Section -->
+<section class="what-we-do" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <?php echo ot_get_option('what_we_do_section'); ?>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="what-we-do-containt">
+     <?php     if ( function_exists( 'ot_get_option' ) ) {
+  
+            /* get the slider array */
+            $slides = ot_get_option( 'box_section', array() );
+
+            if ( ! empty( $slides ) ) {
+              $i=1;
+                foreach( $slides as $slide ) {
+                  ?>
+        <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-6 what-we-do-box box-<?php echo $i++; ?>">
+          <div class="title-box">
+            <?php echo  $slide['title']; ?>
+            <div class="title-box-icon"> <img class="img-responsive" src="<?php echo $slide['image']; ?>"> </div>
+          </div>
+          <div class="containt-box">
+          <?php echo $slide['description']; ?>
+          </div>
+        </div>
+          <?php 
+              }
+            }
+
+          } ?>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title">
+        <?php echo ot_get_option('portfolio_title'); ?>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+          <?php $post_info_arr = get_posts(array('post_type'=>'portfolio','posts_per_page' => 4,'order'=>'desc'));
+               $i=1;
+                foreach($post_info_arr as $post_info){
+                 
+                if($i%2==0){ ?>
+                  <div class="work-box right-contant">
+                <?php  }
+                else { ?>
+                   <div class="work-box">
+                <?php }
+//          $image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post_info->ID));
+                 ?>    
+  <div class="work-wrapper">
+    <div class="work-containt">
+        <div class="work-title">
+          <p><?php  echo get_the_category($post_info->ID)[0]->name; ?></p>
+        </div>
+            <div class="work-description">
+            <p><?php echo  $post_info->post_content; ?></p>
+            </div>
+        <div class="read-more"> 
+            <a href="<?php echo get_permalink($post_info->ID); ?>"><?php esc_html_e( 'Read more', 'studiotiger' ); ?></a>
+        </div>  
+         </div>
+            <div class="work-bg">
+              <div class="bg">
+              <?php 
+             $result = get_the_post_thumbnail_url($post_info->ID);  ?>
+             <?php  if ($result!=NULL)  { ?>
+                  <img class="img-responsive" src="<?php echo $result; ?>">
+              <?php  }
+             else { 
+                 $id = "bgid";$id .= $i; ?>            
+                  <div class="bgcldiv" id="<?php echo $id; ?>">
+                      
+                  </div>
+         <?php } ?>         
+              </div>
+            </div>
+  </div>
+</div>
+<?php $i++; } ?>
+<div class="view-all-btn">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-12 text-center">
+            	<div class="round-btn-box">
+            	   <a class="rounded-btn" href="<?php  echo esc_url( get_permalink(62) ); ?>"><?php esc_html_e( 'View All', 'studiotiger' ); ?></a>
+               	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- clients Section -->
+<section class="clients-section">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-12 text-center">
+        		<div class="section-title">
+                  <?php echo ot_get_option('client_title'); ?>
+                </div>
+            </div>
+        </div>
+        
+        
+         <div class="row">
+			<div class="clients-logo-slider">
+			<div class="col-lg-12">
+				<div class="owl-carousel owl-theme">
+                                     <?php  if ( function_exists( 'ot_get_option' ) ) {
+  
+  /* get the slider array */
+  $slides = explode( ',', ot_get_option( 'slider', '' ) );
+  if ( ! empty( $slides ) ) {
+       for ($i = 0; $i <count($slides); $i++) {
+            echo '<div class="item">
+                           <ul class="client-logo-ul-li">';
+           
+            echo '<li>
+                  <div class="logo-img-box-wrapper">
+                    <div class="logo-img-box">'; 
+                       if(!empty($slides[$i])){
+                          $full_img_src = wp_get_attachment_image_src($slides[$i], '' );
+                        echo '<img class="img-responsive" src="'.$full_img_src[0].'">';
+                       }
+                    echo '</div>';
+            $i++;
+            echo '<div class="logo-img-box">'; 
+                      if(!empty($slides[$i])){
+                          $full_img_src = wp_get_attachment_image_src( $slides[$i], '' );
+                        echo '<img class="img-responsive" src="'.$full_img_src[0].'">';
+                       }
+                    echo '</div>
+               </li>';
+          echo ' </ul>
+                       </div>';
+                
+          }
+    
+  }
+  
+}
+            ?>
+		  	</div>
+			</div>
+			</div>
+		</div>
+                </div>            
+   
+</section>
+
+
+<!-- contact Section -->
+
+<section class="contact-section">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-12">
+        		<div class="section-title">
+          			<p><?php echo ot_get_option('contact_title'); ?></p>
+        		</div>
+      		</div>
+        </div>
+        
+        <div class="row">
+        	<div class="contact-detail">
+         <?php if ( function_exists( 'ot_get_option' ) ) {
+  
+                    /* get the slider array */
+                    $slides = ot_get_option( 'contact_detail', array() );
+
+                    if ( ! empty( $slides ) ) {
+                        $i = 0;
+                        foreach( $slides as $slide ) {
+                           if($i==0 || $i%2 != 0) $calss = "no-p-r";
+                           else $class = "no-p-l";
+                           $i++;
+                          ?>
+            	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 <?php echo $class; ?>">
+                	<div class="contact-left-box contact-box-coman">
+                    	
+                            <div class="con-imgtit-wrp">
+                                <div class="contact-img-box">
+                                    <img class="img-responsive" src="<?php echo $slide['image']; ?>">
+                                </div>
+                                <div class="con-tit">
+                                    <div class="contact-title">
+                                        <h3><?php echo $slide['title']; ?></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="contact-detail-box">
+                        	
+                            <?php echo $slide['description']; ?>
+                        </div>
+                    </div>
+                </div>
+                 <?php  }
+                    }
+               }  ?>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php get_footer(); ?>

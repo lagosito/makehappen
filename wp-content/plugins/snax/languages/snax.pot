@@ -1,0 +1,2767 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Snax package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Snax 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-27 14:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../snax/includes/admin/admin.php:192 ../snax/includes/admin/admin.php:193
+#: ../snax/templates/pages/about.php:12
+msgid "Welcome to Snax"
+msgstr ""
+
+#: ../snax/includes/admin/admin.php:203 ../snax/includes/admin/admin.php:204
+#: ../snax/includes/admin/admin.php:212 ../snax/includes/admin/admin.php:213
+#: ../snax/includes/admin/metaboxes/items/image-item-metabox.php:27
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:20
+#: ../snax/includes/admin/metaboxes/posts/gallery-post-metabox.php:27
+#: ../snax/includes/admin/metaboxes/posts/image-post-metabox.php:27
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:32
+#: ../snax/includes/common/functions.php:490
+msgid "Snax"
+msgstr ""
+
+#: ../snax/includes/admin/admin.php:221 ../snax/includes/admin/admin.php:222
+msgid "Snax Pages"
+msgstr ""
+
+#: ../snax/includes/admin/admin.php:230 ../snax/includes/admin/admin.php:231
+msgid "Snax Voting"
+msgstr ""
+
+#: ../snax/includes/admin/admin.php:239 ../snax/includes/admin/admin.php:240
+msgid "Snax Demo"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:186
+msgid "Snax Format"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:190
+msgid "Submitted to"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:209
+#: ../snax/includes/admin/functions.php:276
+#: ../snax/includes/admin/functions.php:302
+#: ../snax/includes/admin/settings/sections.php:281
+#: ../snax/includes/plugins/buddypress/functions.php:175
+msgid "List"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:212
+#: ../snax/includes/admin/functions.php:214
+#: ../snax/includes/plugins/buddypress/components/items.php:26
+#: ../snax/includes/plugins/buddypress/components/items.php:156
+#: ../snax/includes/plugins/buddypress/components/items.php:223
+#: ../snax/includes/plugins/buddypress/components/items.php:258
+msgid "Submissions"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:218
+#: ../snax/includes/admin/functions.php:220
+#: ../snax/includes/admin/settings/navigation.php:49
+#: ../snax/includes/admin/settings/sections.php:38
+#: ../snax/includes/admin/settings/template.php:104
+msgid "Voting"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:227
+#: ../snax/includes/admin/settings/sections.php:269
+#: ../snax/includes/frontend-submission/formats.php:963
+msgid "Gallery"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:233
+#: ../snax/includes/admin/settings/sections.php:263
+#: ../snax/includes/frontend-submission/formats.php:954
+#: ../snax/includes/items/template.php:568
+msgid "Image"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:239
+#: ../snax/includes/admin/settings/sections.php:275
+#: ../snax/includes/frontend-submission/formats.php:972
+#: ../snax/includes/items/template.php:577
+msgid "Embed"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:267
+msgid "All posts"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:268
+msgid "Snax: All formats"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:282
+msgid "Snax:"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:294
+msgid "All items"
+msgstr ""
+
+#: ../snax/includes/admin/functions.php:308
+msgid "items"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:334
+#: ../snax/includes/admin/tgm-config.php:75
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:335
+#: ../snax/includes/admin/tgm-config.php:76
+msgid "Install Plugins"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:337
+#: ../snax/includes/admin/tgm-config.php:77
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:340
+#: ../snax/includes/admin/tgm-config.php:79
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:367
+#: ../snax/includes/admin/tgm-config.php:86
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:373
+#: ../snax/includes/admin/tgm-config.php:88
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:378
+#: ../snax/includes/admin/tgm-config.php:96
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:392
+#: ../snax/includes/admin/tgm-config.php:98
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:393
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:920
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2626
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:394
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3252
+#: ../snax/includes/admin/tgm-config.php:99
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:395
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:1027
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:1214
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2641
+#: ../snax/includes/admin/metaboxes/items/image-item-metabox.php:63
+#: ../snax/includes/admin/metaboxes/posts/image-post-metabox.php:63
+#: ../snax/includes/common/functions.php:875 ../snax/templates/content.php:38
+#: ../snax/templates/fb-instant-articles/items/media.php:23
+#: ../snax/templates/items/media.php:34
+msgid "Source"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2642
+#: ../snax/includes/common/widgets.php:123
+msgid "Type"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3602
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3602
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../snax/includes/admin/lib/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/fake-votes-metabox.php:31
+msgid "Fake Votes"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/fake-votes-metabox.php:60
+msgid "Fake vote count"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/fake-votes-metabox.php:65
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:197
+#, php-format
+msgid ""
+"Leave empty to use <a href=\"%s\" target=\"_blank\">global settings</a>."
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/fake-votes-metabox.php:115
+#: ../snax/includes/admin/metaboxes/items/image-item-metabox.php:121
+#: ../snax/includes/admin/metaboxes/posts/gallery-post-metabox.php:122
+#: ../snax/includes/admin/metaboxes/posts/image-post-metabox.php:122
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:250
+msgid "Nonce incorrect!"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:38
+msgid "Logged-In"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:40
+msgid "Links visible only for logged in users."
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:46
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:49
+msgid "Log Out"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:56
+msgid "Logged-Out"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:58
+msgid "Links visible only for logged out users."
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:64
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:67
+msgid "Log In"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:73
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:76
+#: ../snax/templates/form-login.php:41
+msgid "Register"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/menu-endpoints-metabox.php:86
+msgid "Add to Menu"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/gallery-post-metabox.php:62
+msgid "Items Per Page"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/gallery-post-metabox.php:69
+#, php-format
+msgid "Leave empty to use <a href=\"%s\">global settings</a>."
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:67
+msgid "Make this post a list"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:104
+#: ../snax/includes/frontend-submission/formats.php:981
+msgid "Open list"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:111
+msgid "Submission Start Date"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:121
+msgid "Submission End Date"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:125
+msgid "Close Submission"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:137
+msgid "Change default forms"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:160
+#: ../snax/includes/frontend-submission/formats.php:990
+msgid "Ranked list"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:167
+msgid "Voting Start Date"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:176
+msgid "Voting End Date"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:180
+msgid "Close Voting"
+msgstr ""
+
+#: ../snax/includes/admin/metaboxes/posts/list-post-metabox.php:188
+#: ../snax/includes/admin/settings/sections.php:76
+msgid "Items per page"
+msgstr ""
+
+#: ../snax/includes/admin/settings/navigation.php:37
+#: ../snax/includes/admin/settings/sections.php:23
+#: ../snax/includes/admin/settings/template.php:27
+msgid "General"
+msgstr ""
+
+#: ../snax/includes/admin/settings/navigation.php:41
+#: ../snax/includes/admin/settings/sections.php:33
+#: ../snax/includes/admin/settings/template.php:78
+msgid "Pages"
+msgstr ""
+
+#: ../snax/includes/admin/settings/navigation.php:45
+#: ../snax/includes/admin/settings/sections.php:28
+#: ../snax/includes/admin/settings/template.php:52
+msgid "Lists"
+msgstr ""
+
+#: ../snax/includes/admin/settings/navigation.php:53
+#: ../snax/includes/admin/settings/sections.php:43
+#: ../snax/includes/admin/settings/template.php:130
+msgid "Demo"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:48
+msgctxt "Permalink Settings"
+msgid "Snax"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:67
+msgid "Active formats"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:67
+msgid "(drag to reorder)"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:82
+msgid "Show items count in title"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:88
+msgid "Maximum file upload size"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:94
+#: ../snax/includes/admin/settings/sections.php:100
+#: ../snax/includes/admin/settings/sections.php:183
+msgid "User can submit"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:106
+msgid "Disable admin bar for non-administrators"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:112
+msgid "Disable Dashboard access for non-administrators"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:118
+msgid "Disable WP login form"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:124
+msgid "Category field"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:130
+msgid "Multiple categories selection?"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:136
+msgid "Category whitelist"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:142
+msgid "Auto assign to category"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:148
+msgid "Facebook App Id"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:154
+msgid "Skip verification?"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:160
+msgid "Send mail to admin when new post/item was added?"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:171
+msgid "Item forms"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:177
+msgid "Show list status in title"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:195
+#: ../snax/includes/core/install.php:90
+msgid "Frontend Submission"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:202
+msgid "Terms and Conditions"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:209
+#: ../snax/includes/items/template.php:190
+msgid "Report"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:220
+msgid "Voting enabled?"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:226
+msgid "Guests can vote?"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:232
+msgid "Allow users to vote on post types"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:238
+msgid "Fake vote count base"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:249
+msgid "Demo mode enabled?"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:287
+#: ../snax/includes/frontend-submission/formats.php:1014
+msgid "Meme"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:304
+msgid "Item url"
+msgstr ""
+
+#: ../snax/includes/admin/settings/sections.php:310
+msgid "URL variable"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:26
+#: ../snax/includes/admin/settings/template.php:51
+#: ../snax/includes/admin/settings/template.php:76
+#: ../snax/includes/admin/settings/template.php:102
+#: ../snax/includes/admin/settings/template.php:128
+msgid "Snax Settings"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:35
+#: ../snax/includes/admin/settings/template.php:60
+#: ../snax/includes/admin/settings/template.php:85
+#: ../snax/includes/admin/settings/template.php:111
+#: ../snax/includes/admin/settings/template.php:137
+msgid "Save Changes"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:234
+msgid "only 1 post"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:235
+msgid "10 posts"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:236
+msgid "unlimited posts"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:238
+msgid "per day."
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:250
+msgid "10 items"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:251
+msgid "20 items"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:252
+#: ../snax/includes/admin/settings/template.php:450
+msgid "unlimited items"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:254
+msgid "while creating a new list/gallery. Applies also to Story format images."
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:293
+msgid "required"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:294
+msgid "optional"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:316
+msgid "- Allow all -"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:328
+msgid "Categories allowed for user while creating a new post."
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:340
+msgid "- Not assign -"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:372
+#: ../snax/includes/admin/settings/template.php:386
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:35
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:50
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:79
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:94
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:109
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:124
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:139
+#: ../snax/templates/quizzes/personality/form/settings.php:35
+#: ../snax/templates/quizzes/personality/form/settings.php:50
+#: ../snax/templates/quizzes/personality/form/settings.php:79
+#: ../snax/templates/quizzes/personality/form/settings.php:94
+#: ../snax/templates/quizzes/personality/form/settings.php:109
+#: ../snax/templates/quizzes/personality/form/settings.php:124
+#: ../snax/templates/quizzes/personality/form/settings.php:139
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:51
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:66
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:95
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:110
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:125
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:140
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:155
+#: ../snax/templates/quizzes/trivia/form/settings.php:51
+#: ../snax/templates/quizzes/trivia/form/settings.php:66
+#: ../snax/templates/quizzes/trivia/form/settings.php:95
+#: ../snax/templates/quizzes/trivia/form/settings.php:110
+#: ../snax/templates/quizzes/trivia/form/settings.php:125
+#: ../snax/templates/quizzes/trivia/form/settings.php:140
+#: ../snax/templates/quizzes/trivia/form/settings.php:155
+msgid "yes"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:373
+#: ../snax/includes/admin/settings/template.php:387
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:36
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:51
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:80
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:95
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:110
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:125
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:140
+#: ../snax/templates/quizzes/personality/form/settings.php:36
+#: ../snax/templates/quizzes/personality/form/settings.php:51
+#: ../snax/templates/quizzes/personality/form/settings.php:80
+#: ../snax/templates/quizzes/personality/form/settings.php:95
+#: ../snax/templates/quizzes/personality/form/settings.php:110
+#: ../snax/templates/quizzes/personality/form/settings.php:125
+#: ../snax/templates/quizzes/personality/form/settings.php:140
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:52
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:67
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:96
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:111
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:126
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:141
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:156
+#: ../snax/templates/quizzes/trivia/form/settings.php:52
+#: ../snax/templates/quizzes/trivia/form/settings.php:67
+#: ../snax/templates/quizzes/trivia/form/settings.php:96
+#: ../snax/templates/quizzes/trivia/form/settings.php:111
+#: ../snax/templates/quizzes/trivia/form/settings.php:126
+#: ../snax/templates/quizzes/trivia/form/settings.php:141
+#: ../snax/templates/quizzes/trivia/form/settings.php:156
+msgid "no"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:436
+msgid "Allow guest users without accounts to submit new items."
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:449
+msgid "only 1 item"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:452
+msgid "to an existing list."
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:474
+#: ../snax/includes/admin/settings/template.php:494
+#: ../snax/includes/admin/settings/template.php:514
+#: ../snax/includes/admin/settings/template.php:626
+msgid "- None -"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:480
+#: ../snax/includes/admin/settings/template.php:500
+#: ../snax/includes/admin/settings/template.php:520
+#: ../snax/includes/admin/settings/template.php:636
+msgid "View"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:583
+msgid "e.g. 1000"
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:584
+msgid "Leave empty to not use \"Fake votes\" feature."
+msgstr ""
+
+#: ../snax/includes/admin/settings/template.php:641
+msgid "Choose an Image post"
+msgstr ""
+
+#: ../snax/includes/admin/tgm-config.php:39
+msgid "Automatic plugin updates"
+msgstr ""
+
+#: ../snax/includes/admin/tgm-config.php:80
+#, php-format
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:82
+#, php-format
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:84
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:90
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:92
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:94
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:97
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/admin/tgm-config.php:100
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../snax/includes/admin/tgm-config.php:102
+msgid "updated"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:89
+msgid "Image files"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:165
+#: ../snax/templates/share-links/facebook.php:73
+#: ../snax/templates/share-links/facebook.php:74
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:169
+#: ../snax/templates/share-links/twitter.php:24
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:173
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:465
+msgid "Reload post meta"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:530
+#: ../snax/includes/items/template.php:115
+#: ../snax/includes/items/template.php:116 ../snax/templates/content.php:20
+msgid "Edit"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:543
+msgid "Learn more"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:855
+#: ../snax/includes/common/functions.php:862
+msgid "Drop files here"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:856
+#: ../snax/includes/common/functions.php:863
+msgid "Select Files"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:857
+#: ../snax/includes/common/functions.php:864
+msgid "Maximum upload file size: "
+msgstr ""
+
+#: ../snax/includes/common/functions.php:955
+msgctxt "Mail notification"
+msgid "New item was submitted."
+msgstr ""
+
+#: ../snax/includes/common/functions.php:958
+#, php-format
+msgctxt "Mail notification"
+msgid "New item (%1$s) awaits approval: %2$s"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:960
+#, php-format
+msgctxt "Mail notification"
+msgid "New item (%1$s) was published: %2$s"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:982
+msgctxt "Mail notification"
+msgid "New post was submitted."
+msgstr ""
+
+#: ../snax/includes/common/functions.php:985
+#, php-format
+msgctxt "Mail notification"
+msgid "New post (%1$s) awaits approval: %2$s"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:987
+#, php-format
+msgctxt "Mail notification"
+msgid "New post (%1$s) was published: %2$s"
+msgstr ""
+
+#: ../snax/includes/common/functions.php:1049
+msgid "Upload failed. Image type is not allowed."
+msgstr ""
+
+#: ../snax/includes/common/functions.php:1060
+msgid "Upload failed. Image file is too big."
+msgstr ""
+
+#: ../snax/includes/common/functions.php:1063
+msgid "Upload failed. Image file is too big or its size couldn't be verified."
+msgstr ""
+
+#: ../snax/includes/common/functions.php:1070
+msgid "Upload failed. Image couldn't be downloaded from the url."
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:40
+msgid "Recently created, updated, closed lists"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:43
+msgid "Snax Lists"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:101
+#: ../snax/includes/common/widgets.php:379
+msgid "Widget title"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:111
+msgid "The max. number of entries to show"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:136
+#: ../snax/includes/common/widgets.php:413
+msgid "HTML id attribute (optional)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:147
+#: ../snax/includes/common/widgets.php:424
+msgid "HTML class(es) attribute (optional)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:190
+msgid "Recently created lists"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:205
+msgid "Recently added"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:206
+msgid "Recently modified (eg. when new item was added)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:207
+msgid "Open for submission (recently opened first)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:208
+msgid "Closed for submission (recently closed first)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:209
+msgid "Open for voting (recently opened first)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:210
+msgid "Closed for voting (recently closed first)"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:318
+msgid "Box with link to the Frontend Submission page"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:321
+msgid "Snax Call To Action"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:389
+msgid "Call To Action text"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:401
+msgid "Button label"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:469
+msgid "Unleash your creativity and share you story with us!"
+msgstr ""
+
+#: ../snax/includes/common/widgets.php:470
+msgid "Create"
+msgstr ""
+
+#: ../snax/includes/core/functions.php:198
+msgid ""
+"Network activation disabled. Activate this plugin in a single site context\t."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:264
+msgid "Some errors occured while creating image."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:429
+msgid "Some errors occured while creating meme."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:540
+msgid "Some errors occured while creating embed."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:610
+msgid "Some errors occured while creating gallery."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:709
+msgid "Some errors occured while creating text."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:789
+msgid "User draft quiz not exists!."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:945
+msgid "Story"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:946
+msgid "Submit Story"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:948
+msgid "Mix text with images and embeds"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:955
+msgid "Upload Image"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:957
+msgid "Photo, GIF"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:964
+msgid "Upload Gallery"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:966
+msgid "A collection of images"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:973
+msgid "Embed Content"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:975
+msgid "YouTube videos, Instagram photos, Twitter statuses, etc."
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:982
+msgid "Start an Open List"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:984
+msgid "Everyone can submit new list items and vote up for the best submission"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:991
+msgid "Create a Ranked List"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:993
+msgid "Everyone can vote up for the best list item"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1002
+msgid "Classic list"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1003
+msgid "Create a List"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1005
+msgid "A list-based article"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1015
+msgid "Make a Meme"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1017
+msgid "Create a funny pic"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1023
+msgid "Trivia quiz"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1024
+msgid "Create a Trivia Quiz"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1026
+msgid "What do you know about ...?"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1032
+msgid "Personality quiz"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1033
+msgid "Create a Personality Quiz"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1035
+msgid "What type of person are you?"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1235
+msgid "Drop Featured Image Here"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1236
+#: ../snax/includes/frontend-submission/formats.php:1245
+msgid "Select File"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/formats.php:1244
+msgid "Drop file here"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/functions.php:26
+#: ../snax/includes/frontend-submission/functions.php:31
+#: ../snax/includes/frontend-submission/functions.php:36
+#: ../snax/includes/items/ajax.php:39 ../snax/includes/items/ajax.php:136
+#: ../snax/includes/items/ajax.php:226 ../snax/includes/items/ajax.php:275
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/functions.php:92
+#: ../snax/includes/frontend-submission/functions.php:96
+#: ../snax/includes/frontend-submission/functions.php:114
+#: ../snax/templates/items/form-new-embed.php:33
+#: ../snax/templates/items/form-new-embed.php:67
+#: ../snax/templates/items/form-new-image.php:31
+#: ../snax/templates/items/form-new-image.php:69
+#: ../snax/templates/posts/form-edit/row-categories.php:23
+#: ../snax/templates/posts/form-edit/row-content-title.php:14
+msgid "This field is required"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/functions.php:108
+msgid "Choose format"
+msgstr ""
+
+#: ../snax/includes/frontend-submission/functions.php:126
+msgid "Choose valid category"
+msgstr ""
+
+#: ../snax/includes/items/functions.php:150
+msgctxt "Item type"
+msgid "image"
+msgstr ""
+
+#: ../snax/includes/items/functions.php:240
+msgctxt "Item type"
+msgid "embed"
+msgstr ""
+
+#: ../snax/includes/items/functions.php:413
+msgid "(no title)"
+msgstr ""
+
+#: ../snax/includes/items/functions.php:424
+#, php-format
+msgid "(%d/%d)"
+msgstr ""
+
+#: ../snax/includes/items/functions.php:1378
+#, php-format
+msgid "Submitted to: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: ../snax/includes/items/template.php:63
+msgid "More"
+msgstr ""
+
+#: ../snax/includes/items/template.php:145
+#: ../snax/includes/items/template.php:148
+#: ../snax/templates/items/form-new-embed.php:37
+#: ../snax/templates/items/form-new-image.php:35
+#: ../snax/templates/quizzes/personality/form-frontend/answer-tpl.php:17
+#: ../snax/templates/quizzes/personality/form-frontend/answer-tpl.php:23
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:25
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:34
+#: ../snax/templates/quizzes/personality/form-frontend/result-tpl.php:24
+#: ../snax/templates/quizzes/personality/form-frontend/result-tpl.php:31
+#: ../snax/templates/quizzes/personality/form/answer-tpl.php:17
+#: ../snax/templates/quizzes/personality/form/answer-tpl.php:23
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:25
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:34
+#: ../snax/templates/quizzes/personality/form/result-tpl.php:24
+#: ../snax/templates/quizzes/personality/form/result-tpl.php:31
+#: ../snax/templates/quizzes/trivia/form-frontend/answer-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form-frontend/answer-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:25
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:34
+#: ../snax/templates/quizzes/trivia/form-frontend/result-tpl.php:31
+#: ../snax/templates/quizzes/trivia/form-frontend/result-tpl.php:38
+#: ../snax/templates/quizzes/trivia/form/answer-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form/answer-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:25
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:34
+#: ../snax/templates/quizzes/trivia/form/result-tpl.php:31
+#: ../snax/templates/quizzes/trivia/form/result-tpl.php:38
+msgid "Delete"
+msgstr ""
+
+#: ../snax/includes/items/template.php:182
+msgid "Hey, I would like to report an abuse"
+msgstr ""
+
+#: ../snax/includes/items/template.php:183
+msgid "Reported link: "
+msgstr ""
+
+#: ../snax/includes/items/template.php:241
+#: ../snax/includes/items/template.php:244
+msgid "Set as Featured Image"
+msgstr ""
+
+#: ../snax/includes/items/template.php:384
+#: ../snax/templates/fb-instant-articles/items/meta.php:19
+msgid "by"
+msgstr ""
+
+#: ../snax/includes/items/template.php:388
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../snax/includes/items/template.php:463 ../snax/templates/content.php:87
+msgid "Share"
+msgstr ""
+
+#: ../snax/includes/items/template.php:525
+#, php-format
+msgid "Viewing %1$s item"
+msgid_plural "Viewing %1$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/items/template.php:529
+#, php-format
+msgid "Viewing item %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s items - %2$s through %3$s (of %4$s total)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/items/template.php:569
+msgid "Upload image"
+msgstr ""
+
+#: ../snax/includes/items/template.php:570
+msgid "Upload images"
+msgstr ""
+
+#: ../snax/includes/items/template.php:578
+#: ../snax/includes/items/template.php:579
+msgid "Embed content"
+msgstr ""
+
+#: ../snax/includes/items/template.php:700
+msgid "See all"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/activity.php:75
+#, php-format
+msgctxt "BuddyPress activity: new item added"
+msgid ""
+"<a href=\"%s\">%s</a> added new %s <a href=\"%s\">%s</a> to <a href=\"%s\">"
+"%s</a>"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/activity.php:105
+#: ../snax/includes/plugins/buddypress/activity.php:163
+#: ../snax/includes/plugins/buddypress/notifications.php:341
+msgid "upvoted"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/activity.php:105
+#: ../snax/includes/plugins/buddypress/activity.php:163
+#: ../snax/includes/plugins/buddypress/notifications.php:341
+msgid "downvoted"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/activity.php:107
+#: ../snax/includes/plugins/buddypress/activity.php:165
+msgid "post"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/activity.php:123
+#, php-format
+msgctxt "BuddyPress activity: new vote added"
+msgid "<a href=\"%s\">%s</a> %s for <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/items.php:41
+msgid "Search Submissions..."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/items.php:177
+#: ../snax/includes/plugins/buddypress/components/items.php:231
+#: ../snax/includes/plugins/buddypress/components/posts.php:201
+#: ../snax/includes/plugins/buddypress/components/posts.php:266
+msgid "Approved"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/items.php:189
+#: ../snax/includes/plugins/buddypress/components/items.php:239
+#: ../snax/includes/plugins/buddypress/components/posts.php:213
+#: ../snax/includes/plugins/buddypress/components/posts.php:274
+msgid "Pending"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/posts.php:26
+#: ../snax/includes/plugins/buddypress/components/posts.php:180
+#: ../snax/includes/plugins/buddypress/components/posts.php:258
+#: ../snax/includes/plugins/buddypress/components/posts.php:301
+msgid "Posts"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/posts.php:41
+msgid "Search Posts..."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/posts.php:224
+#: ../snax/includes/plugins/buddypress/components/posts.php:282
+msgid "Drafts"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/votes.php:26
+#: ../snax/includes/plugins/buddypress/components/votes.php:112
+#: ../snax/includes/plugins/buddypress/components/votes.php:177
+#: ../snax/includes/plugins/buddypress/components/votes.php:212
+msgid "Votes"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/votes.php:41
+msgid "Search Votes..."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/votes.php:133
+#: ../snax/includes/plugins/buddypress/components/votes.php:185
+msgid "Upvotes"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/components/votes.php:144
+#: ../snax/includes/plugins/buddypress/components/votes.php:193
+msgid "Downvotes"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:84
+msgid "Snax Posts"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:85
+msgid "Manage your posts direclty in your profile."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:90
+msgid "Snax Submissions"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:91
+msgid "Manage your submissions direclty in your profile."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:96
+msgid "Snax Votes"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:97
+msgid "Manage your votes direclty in your profile."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:163
+msgid "Format:"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:166
+msgid "All"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/functions.php:187
+msgid "Go"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:230
+#, php-format
+msgid "%s added new <a href=\"%s\">item</a> to the <a href=\"%s\">%s</a> post."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:252
+#, php-format
+msgid "Your item <a href=\"%s\">%s</a> was approved by %s."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:273
+#, php-format
+msgid "Your item <a href=\"%s\">%s</a> was rejected by %s."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:294
+#, php-format
+msgid "Your post <a href=\"%s\">%s</a> was approved by %s."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:315
+#, php-format
+msgid "Your post <a href=\"%s\">%s</a> was rejected by %s."
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:338
+msgid "voted"
+msgstr ""
+
+#: ../snax/includes/plugins/buddypress/notifications.php:346
+#, php-format
+msgid "%s %s for your post %s."
+msgstr ""
+
+#: ../snax/includes/plugins/quick-adsense-reloaded.php:29
+#: ../snax/includes/plugins/quick-adsense-reloaded.php:34
+#: ../snax/includes/plugins/quick-adsense-reloaded.php:39
+msgid "After Snax Item"
+msgstr ""
+
+#: ../snax/includes/plugins/wordpress-social-login.php:58
+#, php-format
+msgid "Connect with %s"
+msgstr ""
+
+#: ../snax/includes/posts/functions.php:214
+msgid " (Open list)"
+msgstr ""
+
+#: ../snax/includes/posts/functions.php:220
+#, php-format
+msgid "(%s submission)"
+msgid_plural "(%s submissions)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/posts/functions.php:651
+msgid "Some errors occured while creating post."
+msgstr ""
+
+#: ../snax/includes/posts/template.php:164
+#, php-format
+msgid "Viewing %1$s post"
+msgid_plural "Viewing %1$s posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/posts/template.php:168
+#, php-format
+msgid "Viewing post %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/quizzes/functions.php:240
+msgctxt "post type general name"
+msgid "Quizzes"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:241
+msgctxt "post type singular name"
+msgid "Quiz"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:242
+msgctxt "admin menu"
+msgid "Quizzes"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:243
+msgctxt "add new on admin bar"
+msgid "Quiz"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:244
+msgctxt "quizzard item"
+msgid "Add New"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:245
+msgid "Add New Quiz"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:246
+msgid "New Quiz"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:247
+msgid "Edit Quiz"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:248
+msgid "View Quiz"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:249
+msgid "All Quizzes"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:250
+msgid "Search Quizzes"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:251
+msgid "Parent Quizzes:"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:252
+msgid "No quizzes found."
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:253
+msgid "No quizzes found in Trash."
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:1139
+msgid "You have to define and assign personalities first!"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:1359
+msgctxt "Trivia quiz score"
+msgid "Bad day, right?"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:1360
+msgctxt "Trivia quiz score"
+msgid "Could be better"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:1361
+msgctxt "Trivia quiz score"
+msgid "Not so bad"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:1362
+msgctxt "Trivia quiz score"
+msgid "Great"
+msgstr ""
+
+#: ../snax/includes/quizzes/functions.php:1363
+msgctxt "Trivia quiz score"
+msgid "Perfect. You rock!"
+msgstr ""
+
+#: ../snax/includes/users/roles.php:18
+msgid "Snax Author"
+msgstr ""
+
+#: ../snax/includes/votes/functions.php:176
+msgid "User has not voted!"
+msgstr ""
+
+#: ../snax/includes/votes/functions.php:246
+msgid "Could not insert new vote into the database!"
+msgstr ""
+
+#: ../snax/includes/votes/functions.php:266
+msgid "User has not voted for this item!"
+msgstr ""
+
+#: ../snax/includes/votes/functions.php:288
+msgid "User vote could not be removed!"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:48
+#, php-format
+msgid "<strong>%d</strong> point"
+msgid_plural "<strong>%d</strong> points"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/votes/template.php:65
+#, php-format
+msgid "Total votes: %d"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:67
+#, php-format
+msgid "Upvotes: %d"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:69
+#, php-format
+msgid "Upvotes percentage: %f%%"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:71
+#, php-format
+msgid "Downvotes: %d"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:73
+#, php-format
+msgid "Downvotes percentage: %f%%"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:131
+#: ../snax/includes/votes/template.php:135
+msgid "Upvote"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:213
+#: ../snax/includes/votes/template.php:217
+msgid "Downvote"
+msgstr ""
+
+#: ../snax/includes/votes/template.php:296
+#, php-format
+msgid "Viewing %1$s vote"
+msgid_plural "Viewing %1$s votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/includes/votes/template.php:300
+#, php-format
+msgid "Viewing vote %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s votes - %2$s through %3$s (of %4$s total)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../snax/snax.php:385
+msgctxt "post type general name"
+msgid "Snax Items"
+msgstr ""
+
+#: ../snax/snax.php:386
+msgctxt "post type singular name"
+msgid "Snax Item"
+msgstr ""
+
+#: ../snax/snax.php:387
+msgctxt "admin menu"
+msgid "Snax Items"
+msgstr ""
+
+#: ../snax/snax.php:388
+msgctxt "add new on admin bar"
+msgid "Snax Item"
+msgstr ""
+
+#: ../snax/snax.php:389
+msgctxt "snax item"
+msgid "New Item"
+msgstr ""
+
+#: ../snax/snax.php:390
+msgid "Add New Item"
+msgstr ""
+
+#: ../snax/snax.php:391
+msgid "New Item"
+msgstr ""
+
+#: ../snax/snax.php:392
+msgid "Edit Item"
+msgstr ""
+
+#: ../snax/snax.php:393
+msgid "View Item"
+msgstr ""
+
+#: ../snax/snax.php:394
+msgid "All Items"
+msgstr ""
+
+#: ../snax/snax.php:395
+msgid "Search Items"
+msgstr ""
+
+#: ../snax/snax.php:396
+msgid "Parent Items:"
+msgstr ""
+
+#: ../snax/snax.php:397
+msgid "No items found."
+msgstr ""
+
+#: ../snax/snax.php:398
+msgid "No items found in Trash."
+msgstr ""
+
+#: ../snax/snax.php:613
+msgid "Are you sure?"
+msgstr ""
+
+#: ../snax/snax.php:614
+msgid "Top text..."
+msgstr ""
+
+#: ../snax/snax.php:615
+msgid "Bottom text..."
+msgstr ""
+
+#: ../snax/snax.php:616
+msgid "You can drop only one file here."
+msgstr ""
+
+#: ../snax/snax.php:617
+msgid "Upload failed. Check if the file is a valid image."
+msgstr ""
+
+#: ../snax/templates/buddypress/items/section-approved.php:26
+#: ../snax/templates/buddypress/items/section-pending.php:26
+#: ../snax/templates/buddypress/posts/section-draft.php:26
+#: ../snax/templates/buddypress/posts/section-pending.php:26
+msgid "There are no items yet"
+msgstr ""
+
+#: ../snax/templates/buddypress/posts/section-approved.php:26
+msgid "There are no posts yet"
+msgstr ""
+
+#: ../snax/templates/buddypress/votes/section-downvotes.php:26
+#: ../snax/templates/buddypress/votes/section-upvotes.php:26
+msgid "There are no votes yet"
+msgstr ""
+
+#: ../snax/templates/content-card-embed.php:20
+msgid "Up"
+msgstr ""
+
+#: ../snax/templates/content-card-embed.php:21
+msgid "Down"
+msgstr ""
+
+#: ../snax/templates/content-card-embed.php:37
+#: ../snax/templates/content-card-image.php:39
+#: ../snax/templates/items/form-new-embed.php:20
+#: ../snax/templates/items/form-new-image.php:18
+#: ../snax/templates/posts/form-edit/row-content-title.php:11
+#: ../snax/templates/posts/form-edit/row-title.php:11
+msgid "Title"
+msgstr ""
+
+#: ../snax/templates/content-card-embed.php:41
+#: ../snax/templates/content-card-image.php:43
+#: ../snax/templates/items/form-new-embed.php:25
+#: ../snax/templates/items/form-new-image.php:23
+#: ../snax/templates/posts/form-edit/row-content-title.php:22
+#: ../snax/templates/posts/form-edit/row-title.php:21
+msgid "Enter title&hellip;"
+msgstr ""
+
+#: ../snax/templates/content-card-embed.php:59
+#: ../snax/templates/content-card-image.php:71
+#: ../snax/templates/items/form-new-embed.php:53
+#: ../snax/templates/items/form-new-image.php:55
+#: ../snax/templates/posts/form-edit/row-description.php:12
+msgid "Description"
+msgstr ""
+
+#: ../snax/templates/content-card-embed.php:63
+#: ../snax/templates/content-card-image.php:75
+#: ../snax/templates/items/form-new-embed.php:58
+#: ../snax/templates/items/form-new-image.php:60
+#: ../snax/templates/posts/form-edit/row-description.php:19
+msgid "Enter some description&hellip;"
+msgstr ""
+
+#: ../snax/templates/content-card-image.php:21
+msgid "Move up"
+msgstr ""
+
+#: ../snax/templates/content-card-image.php:23
+msgid "Move down"
+msgstr ""
+
+#: ../snax/templates/content-card-image.php:58
+#: ../snax/templates/items/form-new-image.php:47
+#: ../snax/templates/posts/form-edit/row-source.php:13
+msgid "Not your original work? Note the source"
+msgstr ""
+
+#: ../snax/templates/content-card-image.php:61
+#: ../snax/templates/form-upload-media.php:33
+#: ../snax/templates/items/form-new-image.php:51
+#: ../snax/templates/posts/form-edit/row-source.php:17
+msgid "http://"
+msgstr ""
+
+#: ../snax/templates/demo/form-embed.php:25
+#: ../snax/templates/demo/form-gallery.php:29
+#: ../snax/templates/demo/form-image.php:23
+#: ../snax/templates/demo/form-list.php:29
+#: ../snax/templates/demo/form-meme.php:23
+msgid "Start with example"
+msgstr ""
+
+#: ../snax/templates/demo/form-embed.php:28
+#: ../snax/templates/demo/form-gallery.php:32
+#: ../snax/templates/demo/form-image.php:26
+#: ../snax/templates/demo/form-list.php:32
+#: ../snax/templates/demo/form-meme.php:26 ../snax/templates/form-login.php:24
+msgid "or"
+msgstr ""
+
+#: ../snax/templates/fb-instant-articles/items/meta.php:17
+msgid "Posted"
+msgstr ""
+
+#: ../snax/templates/fb-instant-articles/items/meta.php:25
+msgid "at"
+msgstr ""
+
+#: ../snax/templates/feedback-processing.php:19
+msgid "Close"
+msgstr ""
+
+#: ../snax/templates/feedback-processing.php:22
+msgid "of"
+msgstr ""
+
+#: ../snax/templates/feedback-processing.php:29
+msgid "Processing files&hellip;"
+msgstr ""
+
+#: ../snax/templates/form-frontend-submission-embed.php:34
+#: ../snax/templates/form-frontend-submission-gallery.php:38
+#: ../snax/templates/form-frontend-submission-image.php:34
+#: ../snax/templates/form-frontend-submission-list.php:36
+#: ../snax/templates/form-frontend-submission-meme.php:36
+#: ../snax/templates/form-frontend-submission-personality_quiz.php:33
+#: ../snax/templates/form-frontend-submission-text.php:34
+#: ../snax/templates/form-frontend-submission-trivia_quiz.php:33
+msgid "Share your story"
+msgstr ""
+
+#: ../snax/templates/form-frontend-submission-embed.php:68
+#: ../snax/templates/form-frontend-submission-gallery.php:72
+#: ../snax/templates/form-frontend-submission-image.php:70
+#: ../snax/templates/form-frontend-submission-list.php:75
+#: ../snax/templates/form-frontend-submission-meme.php:72
+#: ../snax/templates/form-frontend-submission-personality_quiz.php:72
+#: ../snax/templates/form-frontend-submission-text.php:43
+#: ../snax/templates/form-frontend-submission-trivia_quiz.php:72
+msgid "Publish Options"
+msgstr ""
+
+#: ../snax/templates/form-login.php:15
+msgid "Hey there!"
+msgstr ""
+
+#: ../snax/templates/form-login.php:27
+msgid "Sign in"
+msgstr ""
+
+#: ../snax/templates/form-login.php:37
+msgid "Forgot password?"
+msgstr ""
+
+#: ../snax/templates/form-login.php:40
+msgid "Don't have an account?"
+msgstr ""
+
+#: ../snax/templates/form-upload-media.php:32
+msgid "Or get image from URL"
+msgstr ""
+
+#: ../snax/templates/frontend-submission-post-draft-saved.php:16
+msgid "Post draft updated."
+msgstr ""
+
+#: ../snax/templates/frontend-submission-validation-failed.php:16
+msgid "Please correct all errors before continuing"
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:16
+msgid "Add New Embed"
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:41
+msgid "Embed URL"
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:44
+#: ../snax/templates/posts/form-edit/new-embed.php:23
+msgid "Paste link or embed code&hellip;"
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:45
+#: ../snax/templates/posts/form-edit/new-embed.php:24
+msgid "e.g.: https://www.youtube.com/watch?v=WwoKkq685Hk"
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:48
+#: ../snax/templates/items/form-new-image.php:40
+msgid "Processing..."
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:64
+#: ../snax/templates/items/form-new-image.php:66
+#: ../snax/templates/posts/form-edit/row-legal.php:19
+msgid "I agree with the terms and conditions."
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:76
+#: ../snax/templates/items/form-new-image.php:79
+#: ../snax/templates/posts/form-edit/row-actions.php:15
+msgid "Publish"
+msgstr ""
+
+#: ../snax/templates/items/form-new-embed.php:80
+#: ../snax/templates/items/form-new-image.php:83
+#: ../snax/templates/posts/form-edit/row-actions.php:20
+msgid "Submit for Review"
+msgstr ""
+
+#: ../snax/templates/items/form-new-image.php:14
+msgid "Add New Image"
+msgstr ""
+
+#: ../snax/templates/items/form-new.php:12
+msgid "This list is closed for submission."
+msgstr ""
+
+#: ../snax/templates/items/form-new.php:16
+msgid "You don't have sufficient permissions to submit new item."
+msgstr ""
+
+#: ../snax/templates/items/form-new.php:20
+msgid "You've reached the limit for adding new items"
+msgstr ""
+
+#: ../snax/templates/items/form-new.php:27
+msgid "Add your submission"
+msgstr ""
+
+#: ../snax/templates/items/nav.php:12
+msgid "Item navigation"
+msgstr ""
+
+#: ../snax/templates/items/nav.php:16
+msgid "Previous"
+msgstr ""
+
+#: ../snax/templates/items/nav.php:19
+msgid "View full list"
+msgstr ""
+
+#: ../snax/templates/items/nav.php:22
+msgid "Next"
+msgstr ""
+
+#: ../snax/templates/items/note-submission-success.php:19
+msgid "You've submitted your first item!"
+msgstr ""
+
+#: ../snax/templates/items/note-submission-success.php:21
+#: ../snax/templates/posts/note-submission-success.php:21
+msgid "Thank you for submitting!"
+msgstr ""
+
+#: ../snax/templates/items/note-submission-success.php:26
+msgid "Your item is awaiting moderation."
+msgstr ""
+
+#: ../snax/templates/items/note-submission-success.php:32
+#, php-format
+msgid ""
+"You can check the status of your submission on <a href=\"%s\">your profile "
+"page</a>."
+msgstr ""
+
+#: ../snax/templates/items/note-submission-success.php:40
+#, php-format
+msgid ""
+"You can view all your submissions on <a href=\"%s\">your profile page</a>."
+msgstr ""
+
+#: ../snax/templates/notes/access-denied.php:18
+msgid "You don't have sufficient permissions to access this page."
+msgstr ""
+
+#: ../snax/templates/notes/access-denied.php:21
+#: ../snax/templates/notes/action-forbidden.php:21
+msgid "Please contact with site's owner to get access."
+msgstr ""
+
+#: ../snax/templates/notes/action-forbidden.php:18
+msgid "You don't have sufficient permissions to perform this action."
+msgstr ""
+
+#: ../snax/templates/notes/limit-edit-post-items.php:18
+msgid "You've reached the limit for adding new items to this post"
+msgstr ""
+
+#: ../snax/templates/notes/limit-edit-post-items.php:21
+msgid "Remove existing items to add new ones."
+msgstr ""
+
+#: ../snax/templates/notes/limit-posts-daily.php:18
+msgid "You've reached the daily limit for adding new content"
+msgstr ""
+
+#: ../snax/templates/notes/limit-posts-daily.php:21
+msgid "But there's nothing to worry about, you can add more tomorrow."
+msgstr ""
+
+#: ../snax/templates/notes/uploads-dir-not-writable.php:18
+msgid "The uploads directory is not writable."
+msgstr ""
+
+#: ../snax/templates/notes/uploads-dir-not-writable.php:21
+msgid "Please contact with site's owner."
+msgstr ""
+
+#: ../snax/templates/notes/uploads-dir-not-writable.php:27
+msgid "Please make the below directory writable for your web server:."
+msgstr ""
+
+#: ../snax/templates/notes/uploads-dir-not-writable.php:35
+msgid "Read more about correct file permissions."
+msgstr ""
+
+#: ../snax/templates/pages/about.php:15
+msgid "The first front-end uploader with open lists."
+msgstr ""
+
+#: ../snax/templates/pages/about.php:20
+msgid "Getting Started with Snax"
+msgstr ""
+
+#: ../snax/templates/pages/about.php:23
+msgid "Create first post"
+msgstr ""
+
+#: ../snax/templates/pages/about.php:26
+msgid "Administration area"
+msgstr ""
+
+#: ../snax/templates/pages/about.php:35
+msgid "Support"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/new-embed.php:29
+#: ../snax/templates/quizzes/personality/form-frontend/answer-next-tpl.php:23
+#: ../snax/templates/quizzes/personality/form-frontend/question-next-tpl.php:17
+#: ../snax/templates/quizzes/personality/form-frontend/result-next-tpl.php:18
+#: ../snax/templates/quizzes/personality/form/answer-next-tpl.php:23
+#: ../snax/templates/quizzes/personality/form/question-next-tpl.php:18
+#: ../snax/templates/quizzes/personality/form/result-next-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form-frontend/answer-next-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form-frontend/question-next-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form-frontend/result-next-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form/answer-next-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form/question-next-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form/result-next-tpl.php:18
+msgid "Add"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-categories.php:25
+msgid "Category"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-categories.php:31
+msgid "- Select category -"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-content-title.php:16
+msgid "Enter title here&hellip;"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-content.php:16
+msgid "Enter some text&hellip;"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-draft-actions.php:12
+msgid "Save Draft"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-draft-actions.php:13
+msgid "Preview"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-list-options.php:20
+msgid "Open for submissions"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-list-options.php:32
+msgid "Open for voting"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-tags.php:12
+msgid "Tags"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-tags.php:17
+msgid "Add tags&hellip;"
+msgstr ""
+
+#: ../snax/templates/posts/form-edit/row-tags.php:21
+msgid "Separate tags with commas"
+msgstr ""
+
+#: ../snax/templates/posts/note-submission-success.php:19
+msgid "You've submitted your first post!"
+msgstr ""
+
+#: ../snax/templates/posts/note-submission-success.php:26
+msgid "Your post is awaiting moderation."
+msgstr ""
+
+#: ../snax/templates/posts/note-submission-success.php:32
+#, php-format
+msgid ""
+"You can check the status of your post on <a href=\"%s\">your profile page</"
+"a>."
+msgstr ""
+
+#: ../snax/templates/posts/note-submission-success.php:40
+#, php-format
+msgid "You can view all your posts on <a href=\"%s\">your profile page</a>."
+msgstr ""
+
+#: ../snax/templates/posts/origin.php:11
+msgid "This post was created with our nice and easy submission form."
+msgstr ""
+
+#: ../snax/templates/posts/origin.php:11
+msgid "Create your post!"
+msgstr ""
+
+#: ../snax/templates/posts/voting-box.php:12
+msgid "Leave your vote"
+msgstr ""
+
+#: ../snax/templates/quizzes/actions-end.php:4
+msgid "Play again"
+msgstr ""
+
+#: ../snax/templates/quizzes/actions-start.php:3
+msgid "Let's play"
+msgstr ""
+
+#: ../snax/templates/quizzes/locked-result.php:22
+msgid "Share the quiz to view your results!"
+msgstr ""
+
+#: ../snax/templates/quizzes/new-quiz.php:82
+msgid "Trivia Quiz"
+msgstr ""
+
+#: ../snax/templates/quizzes/new-quiz.php:83
+msgid ""
+"Series of questions with right and wrong answers that intends to check "
+"knowledge"
+msgstr ""
+
+#: ../snax/templates/quizzes/new-quiz.php:87
+msgid "Personality Quiz"
+msgstr ""
+
+#: ../snax/templates/quizzes/new-quiz.php:88
+msgid ""
+"Series of questions that intends to reveal something about the personality"
+msgstr ""
+
+#: ../snax/templates/quizzes/pagination.php:4
+msgid "Next question"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/answer-next-tpl.php:22
+#: ../snax/templates/quizzes/personality/form/answer-next-tpl.php:22
+#: ../snax/templates/quizzes/trivia/form-frontend/answer-next-tpl.php:22
+#: ../snax/templates/quizzes/trivia/form/answer-next-tpl.php:22
+msgctxt "Placeholder"
+msgid "Enter next answer here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/answer-tpl.php:30
+#: ../snax/templates/quizzes/personality/form/answer-tpl.php:30
+#: ../snax/templates/quizzes/trivia/form-frontend/answer-tpl.php:30
+#: ../snax/templates/quizzes/trivia/form/answer-tpl.php:30
+msgid "Is this answer correct?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/answer-tpl.php:31
+#: ../snax/templates/quizzes/personality/form/answer-tpl.php:31
+msgid "+1 for "
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-next-tpl.php:16
+#: ../snax/templates/quizzes/personality/form/question-next-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form-frontend/question-next-tpl.php:16
+#: ../snax/templates/quizzes/trivia/form/question-next-tpl.php:16
+msgctxt "Placeholder"
+msgid "Enter first question here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-next-tpl.php:16
+#: ../snax/templates/quizzes/personality/form/question-next-tpl.php:17
+#: ../snax/templates/quizzes/trivia/form-frontend/question-next-tpl.php:16
+#: ../snax/templates/quizzes/trivia/form/question-next-tpl.php:16
+msgctxt "Placeholder"
+msgid "Enter next question here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:23
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:23
+msgctxt "Placeholder"
+msgid "Enter question here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:26
+#: ../snax/templates/quizzes/personality/form-frontend/result-tpl.php:25
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:26
+#: ../snax/templates/quizzes/personality/form/result-tpl.php:25
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:26
+#: ../snax/templates/quizzes/trivia/form-frontend/result-tpl.php:32
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:26
+#: ../snax/templates/quizzes/trivia/form/result-tpl.php:32
+msgid "Collapse | Expand"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:40
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:40
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:39
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:40
+msgid "Hide question title, it is presented on this image"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:47
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:47
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:45
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:47
+msgid "Answers"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:50
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:49
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:48
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:49
+msgid "Text"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:51
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:50
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:49
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:50
+msgid "2 images"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:52
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:51
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:50
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:51
+msgid "3 images"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/question-tpl.php:59
+#: ../snax/templates/quizzes/personality/form/question-tpl.php:57
+#: ../snax/templates/quizzes/trivia/form-frontend/question-tpl.php:57
+#: ../snax/templates/quizzes/trivia/form/question-tpl.php:57
+msgid "Hide answers labels, they are presented on images"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/quiz-tabs-tpl.php:15
+msgid "Edit Personalities"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/quiz-tabs-tpl.php:16
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-tabs-tpl.php:15
+msgid "Edit Questions"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/quiz-tpl.php:25
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:21
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:32
+msgid "Personalities"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/quiz-tpl.php:38
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:22
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:45
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-tpl.php:24
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:21
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:33
+msgid "Questions"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/quiz-tpl.php:40
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:47
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-tpl.php:26
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:35
+msgid "Collapse all"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/quiz-tpl.php:41
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:48
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-tpl.php:27
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:36
+msgid "Expand all"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/result-next-tpl.php:17
+#: ../snax/templates/quizzes/personality/form/result-next-tpl.php:16
+msgctxt "Placeholder"
+msgid "Enter first personality here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/result-next-tpl.php:17
+#: ../snax/templates/quizzes/personality/form/result-next-tpl.php:16
+msgctxt "Placeholder"
+msgid "Enter next personality here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/result-tpl.php:22
+#: ../snax/templates/quizzes/personality/form/result-tpl.php:22
+#: ../snax/templates/quizzes/trivia/form-frontend/result-tpl.php:29
+#: ../snax/templates/quizzes/trivia/form/result-tpl.php:29
+msgctxt "Placeholder"
+msgid "Enter result here"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/result-tpl.php:36
+#: ../snax/templates/quizzes/personality/form/result-tpl.php:36
+#: ../snax/templates/quizzes/trivia/form-frontend/result-tpl.php:43
+#: ../snax/templates/quizzes/trivia/form/result-tpl.php:43
+msgid "Type some description"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:30
+#: ../snax/templates/quizzes/personality/form/settings.php:30
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:46
+#: ../snax/templates/quizzes/trivia/form/settings.php:46
+msgid "One question per page?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:45
+#: ../snax/templates/quizzes/personality/form/settings.php:45
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:61
+#: ../snax/templates/quizzes/trivia/form/settings.php:61
+msgid "Shuffle questions?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:60
+#: ../snax/templates/quizzes/personality/form/settings.php:60
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:76
+#: ../snax/templates/quizzes/trivia/form/settings.php:76
+msgid "Questions per quiz"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:64
+#: ../snax/templates/quizzes/personality/form/settings.php:64
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:80
+#: ../snax/templates/quizzes/trivia/form/settings.php:80
+msgid "Leave empty to show all available questions"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:65
+#: ../snax/templates/quizzes/personality/form/settings.php:65
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:81
+#: ../snax/templates/quizzes/trivia/form/settings.php:81
+msgid "works only with \"Shuffle questions\" options enabled"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:74
+#: ../snax/templates/quizzes/personality/form/settings.php:74
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:90
+#: ../snax/templates/quizzes/trivia/form/settings.php:90
+msgid "Shuffle answers?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:89
+#: ../snax/templates/quizzes/personality/form/settings.php:89
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:105
+#: ../snax/templates/quizzes/trivia/form/settings.php:105
+msgid "\"Start Quiz\" button?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:104
+#: ../snax/templates/quizzes/personality/form/settings.php:104
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:120
+#: ../snax/templates/quizzes/trivia/form/settings.php:120
+msgid "\"Play again\" button?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:119
+#: ../snax/templates/quizzes/personality/form/settings.php:119
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:135
+#: ../snax/templates/quizzes/trivia/form/settings.php:135
+msgid "Allow users to share results?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form-frontend/settings.php:134
+#: ../snax/templates/quizzes/personality/form/settings.php:134
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:150
+#: ../snax/templates/quizzes/trivia/form/settings.php:150
+msgid "User have to share the quiz to see results?"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/form/quiz-tpl.php:25
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:26
+msgid "Settings"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/result.php:28
+#, php-format
+msgid "You got: %s"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/result.php:41
+#: ../snax/templates/quizzes/trivia/result.php:43
+msgid "Share your result"
+msgstr ""
+
+#: ../snax/templates/quizzes/personality/result.php:45
+#, php-format
+msgid "I got %s"
+msgstr ""
+
+#: ../snax/templates/quizzes/progress-bar.php:4
+#, php-format
+msgid "%.0f%%"
+msgstr ""
+
+#: ../snax/templates/quizzes/quiz.php:48
+msgid "Check your answers:"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/answer-tpl.php:31
+#: ../snax/templates/quizzes/trivia/form/answer-tpl.php:31
+msgid "Correct"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-results-tpl.php:18
+msgctxt "result collection"
+msgid "Results"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-results-tpl.php:20
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:51
+msgid "Generate"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/quiz-tabs-tpl.php:16
+msgid "Edit Results"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/result-next-tpl.php:16
+#: ../snax/templates/quizzes/trivia/form/result-next-tpl.php:17
+msgctxt "Placeholder"
+msgid "Enter first result here"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/result-next-tpl.php:16
+#: ../snax/templates/quizzes/trivia/form/result-next-tpl.php:17
+msgctxt "Placeholder"
+msgid "Enter next result here"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:31
+#: ../snax/templates/quizzes/trivia/form/settings.php:31
+msgid "Reveal correct/wrong answers"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:36
+#: ../snax/templates/quizzes/trivia/form/settings.php:36
+msgid "right after user answers a question"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form-frontend/settings.php:37
+#: ../snax/templates/quizzes/trivia/form/settings.php:37
+msgid "at the end of the quiz"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:23
+#: ../snax/templates/quizzes/trivia/form/quiz-tpl.php:49
+msgid "Results"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/result.php:29
+#, php-format
+msgid "You got <strong>%d</strong> out of <strong>%d</strong> right!"
+msgstr ""
+
+#: ../snax/templates/quizzes/trivia/result.php:48
+#, php-format
+msgid "I got %1$d out of %2$d right! How do you measure up&#63;"
+msgstr ""
+
+#: ../snax/templates/widget-list.php:31
+msgid "Sorry. No data so far."
+msgstr ""

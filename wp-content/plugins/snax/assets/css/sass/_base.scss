@@ -1,0 +1,383 @@
+@import "compass/css3";
+
+
+@mixin display( $value: flex ) {
+    @if $value == flex {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    } @else {
+        display: $value;
+    }
+}
+
+@mixin justify-content( $value: flex-start ) {
+    @if $value == flex-start {
+        -ms-flex-pack: start;
+    } @else if $value == flex-end {
+        -ms-flex-pack: end;
+    } @else if $value == space-between {
+        -ms-flex-pack: justify;
+    } @else if $value == space-around {
+        -ms-flex-pack: distribute;
+    } @else {
+        -ms-flex-pack: $value;
+    }
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin flex-wrap($value: nowrap) {
+    @if $value == nowrap {
+        -ms-flex-wrap: none;
+    } @else {
+        -ms-flex-wrap: $value;
+    }
+    -webkit-flex-wrap: $value;
+    flex-wrap: $value;
+}
+
+@mixin flex($fg: 1, $fs: null, $fb: null) {
+    -webkit-flex: $fg $fs $fb;
+    -ms-flex: $fg $fs $fb;
+    flex: $fg $fs $fb;
+}
+
+
+
+
+@mixin snax_remove_link_underline {
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+@font-face {
+    font-family: "snaxicon";
+    src:url("../snaxicon/fonts/snaxicon.eot");
+    src:url("../snaxicon/fonts/snaxicon.eot?#iefix") format("embedded-opentype"),
+    url("../snaxicon/fonts/snaxicon.woff") format("woff"),
+    url("../snaxicon/fonts/snaxicon.ttf") format("truetype"),
+    url("../snaxicon/fonts/snaxicon.svg#snaxicon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@import "actions";
+
+@import "lists";
+
+@import "items";
+
+@import "notes";
+
+@import "voting";
+
+@import "forms";
+
+@import "sharing";
+
+@import "wpsl";
+
+@import "forms.login";
+
+@import "cards";
+
+@import "feedback";
+
+@import "messages";
+
+@import "widgets";
+
+
+
+
+.snax-ad-location {
+    margin: 3em 0;
+
+    img {
+        display: block;
+        margin-#{$left}: auto;
+        margin-#{$right}: auto;
+    }
+}
+
+
+
+@import "formats";
+
+
+.snax {
+    .snax-votes {
+        > article + article {
+            margin-top: 4.5em;
+        }
+    }
+
+
+
+
+    .snax-date-wrapper-unfriendly {
+
+    }
+
+    .snax-date-wrapper {
+        display: inline;
+    }
+
+    .snax-date-wrapper-unfriendly {
+        display: none;
+    }
+
+    .snax-time-wrapper {
+        display: none;
+    }
+
+    .snax-time-wrapper-friendly {
+        display: inline;
+    }
+
+
+
+
+    .snax-object {
+        margin-bottom: 30px;
+    }
+
+    .snax-object-container {
+        background-color: #e6e6e6;
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+
+    .snax-object-actions {
+        text-align: $right;
+
+        .snax-object-action {
+            @include snax_remove_link_underline;
+
+            display: inline-block;
+            @include box-sizing( border-box );
+            min-width: 32px;
+
+            font-size: 0;
+            text-align: center;
+
+            &:before {
+                font: 17px/32px "snaxicon";
+                content: "\e005";
+            }
+        }
+    }
+
+
+
+
+
+
+    $_coin_size: 16px;
+    .snax-states {
+        display: flex;
+        overflow: hidden;
+        min-width: 280px;
+        margin: 0 0 1.5em;
+        padding: 0;
+
+        list-style: none;
+
+        background-color: rgb(255,255,255);
+        background-color: rgba(255,255,255, 0.333);
+
+        @include border-radius( $_coin_size );
+
+    }
+
+    .snax-state {
+        flex-grow: 1;
+        width: 16px;
+        height: 8px;
+        margin: 0;
+
+        position: relative;
+
+        font-size: 0;
+
+        &:before {
+            display: block;
+            width: 0;
+            height: 100%;
+
+            position: absolute;
+            #{$left}: 0;
+            #{$right}: auto;
+            top: 0;
+
+            @include transition( width 0.1s ease-in-out );
+
+            content: "";
+        }
+    }
+
+    .snax-state-success {
+        &:before {
+            width: 100%;
+            background-color: #9fd558;
+        }
+    }
+
+    .snax-state-error {
+        &:before {
+            width: 100%;
+            background-color: #ff6e6e;
+        }
+    }
+
+
+    .snax-close-button {
+        display: none;
+        color: #fff;
+        font-size: 13px;
+
+        &:before {
+            display: block;
+            font: 34px/1 "snaxicon";
+            content: "\e010";
+        }
+    }
+
+
+    .snax-details-expanded {
+        .snax-close-button {
+            display: block;
+        }
+
+        .snax-xofy,
+        .snax-progress,
+        .snax-text-processing {
+            display: none;
+        }
+
+        .snax-states {
+            overflow: visible;
+            text-align: $left;
+            flex-wrap: wrap;
+
+            background-color: transparent;
+            @include border-radius( 0 );
+        }
+
+        .snax-state {
+            font-size: 14px;
+            width: auto;
+            height: auto;
+        }
+
+        .snax-state-processing,
+        .snax-state-success {
+            display: none;
+        }
+
+        .snax-state-error {
+            display: block;
+            padding-#{$left}: 20px;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                #{$left}: 0;
+                #{$right}: auto;
+                width: 8px;
+                height: 8px;
+            }
+        }
+    }
+
+}
+
+.snax-post-origin {}
+
+
+.snax-figure-source {
+    font-size: 0;
+
+    &:before {
+        font-size: 13px;
+
+        content: attr(data-snax-placeholder);
+    }
+}
+
+
+.snax-toolbar {
+    padding: 10px;
+
+    position: fixed;
+    z-index: 999;
+    #{$left}: 0;
+    #{$right}: 0;
+    top: auto;
+    bottom: 0;
+
+    text-align: $right;
+
+    background-color: #ccc;
+
+    > a {
+        display: inline-block;
+        height: 60px;
+        padding: 0 40px;
+
+        font-size: 20px;
+        line-height: 60px;
+        text-align: center;
+
+        @include border-radius( 30px );
+
+        border-color: #808080;
+        background-color: #808080;
+        color: #fff;
+
+        &:hover {
+            border-color: #000;
+            background-color: #000;
+            color: #fff;
+        }
+
+        @include transition(
+            border-color 0.3s ease-in-out,
+            background-color 0.3s ease-in-out,
+            color 0.3s ease-in-out,
+            opacity 0.3s ease-in-out
+        );
+
+        &:before {
+            display: inline-block;
+            margin-#{$right}: 10px;
+
+            vertical-align: middle;
+
+            font-size: 34px;
+            font-family: "snaxicon";
+            content: "\e024";
+        }
+    }
+}
+
+
+@import "demo";
+@import "quizzes";

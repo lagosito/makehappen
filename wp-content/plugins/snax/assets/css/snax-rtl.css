@@ -1,0 +1,4290 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "snaxicon";
+  src: url("../snaxicon/fonts/snaxicon.eot");
+  src: url("../snaxicon/fonts/snaxicon.eot?#iefix") format("embedded-opentype"), url("../snaxicon/fonts/snaxicon.woff") format("woff"), url("../snaxicon/fonts/snaxicon.ttf") format("truetype"), url("../snaxicon/fonts/snaxicon.svg#snaxicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 2, sass/_actions.scss */
+.snax .snax-actions {
+  position: relative;
+  z-index: 3;
+  padding: 0.25em 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 0.83em;
+  line-height: 1.25;
+}
+/* line 13, sass/_actions.scss */
+.snax .snax-actions .snax-actions-toggle {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  height: 24px;
+  margin-right: auto;
+  margin-left: 0;
+  font-size: 0;
+  line-height: 24px;
+  color: inherit;
+  opacity: 0.666;
+}
+/* line 28, sass/_actions.scss */
+.snax .snax-actions .snax-actions-toggle:after {
+  display: inline-block;
+  width: 24px;
+  vertical-align: middle;
+  font: 24px/1 "snaxicon";
+  content: "\e00e";
+}
+/* line 38, sass/_actions.scss */
+.snax .snax-actions .snax-action-links {
+  display: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 160px;
+  padding: 10px 0;
+  margin: 0;
+  border-width: 1px;
+  position: absolute;
+  left: 0;
+  right: auto;
+  list-style: none;
+  border-style: solid;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-color: #e6e6e6;
+  background-color: #fff;
+}
+/* line 58, sass/_actions.scss */
+.snax .snax-actions .snax-action-links li {
+  list-style: none;
+}
+/* line 62, sass/_actions.scss */
+.snax .snax-actions .snax-action-links .snax-action-link {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  padding: 4px 15px;
+}
+/* line 67, sass/_actions.scss */
+.snax .snax-actions .snax-action-links .snax-action-link:hover {
+  background-color: #f2f2f2;
+}
+/* line 75, sass/_actions.scss */
+.snax .snax-actions:hover .snax-actions-toggle {
+  opacity: 1;
+}
+/* line 81, sass/_actions.scss */
+.snax .snax-actions-expanded .snax-actions-toggle {
+  opacity: 1;
+}
+/* line 85, sass/_actions.scss */
+.snax .snax-actions-expanded .snax-action-links {
+  display: block;
+}
+
+/* line 95, sass/_actions.scss */
+body.single-snax_item .snax .snax-actions .snax-actions-toggle {
+  font-size: inherit;
+}
+
+/* line 3, sass/_lists.scss */
+.snax .snax-list-overview:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 9, sass/_lists.scss */
+.snax .snax-list-overview .snax-list-overview-submissions {
+  width: 50%;
+  float: right;
+}
+/* line 14, sass/_lists.scss */
+.snax .snax-list-overview .snax-list-overview-voting {
+  width: 50%;
+  float: right;
+}
+
+/* line 2, sass/_items.scss */
+.snax .snax-items {
+  clear: both;
+  margin: 1.5em 0;
+  list-style: none;
+}
+/* line 7, sass/_items.scss */
+.snax .snax-items article {
+  clear: both;
+}
+/* line 11, sass/_items.scss */
+.snax .snax-items article + article {
+  margin-top: 3em;
+}
+/* line 18, sass/_items.scss */
+.snax .snax-item:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 24, sass/_items.scss */
+.snax .snax-item .snax-item-meta {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.83em;
+  line-height: 1.333;
+}
+/* line 31, sass/_items.scss */
+.snax .snax-item .snax-item-meta:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 37, sass/_items.scss */
+.snax .snax-item .snax-item-meta .snax-item-date {
+  display: block;
+}
+/* line 46, sass/_items.scss */
+.snax .snax-item-header:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 54, sass/_items.scss */
+.snax .snax-item-title {
+  clear: none;
+}
+/* line 58, sass/_items.scss */
+.snax .snax-item-parent {
+  clear: both;
+}
+/* line 62, sass/_items.scss */
+.snax .snax-item-author {
+  margin-left: 1.5em;
+}
+/* line 65, sass/_items.scss */
+.snax .snax-item-author .avatar {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  float: right;
+  margin-left: 10px;
+}
+/* line 76, sass/_items.scss */
+.snax .snax-item-share {
+  position: relative;
+}
+/* line 80, sass/_items.scss */
+.snax .snax-item-actions {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #e6e6e6;
+}
+/* line 99, sass/_items.scss */
+.snax .snax-item-actions .snax-item-share {
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+/* line 105, sass/_items.scss */
+.snax .snax-item-actions .snax-voting {
+  margin-top: 5px;
+  margin-left: auto;
+}
+/* line 110, sass/_items.scss */
+.snax .snax-item-actions .snax-actions {
+  margin: 5px 20px 0 0;
+}
+/* line 115, sass/_items.scss */
+.snax .snax-item-share-toggle {
+  font-size: 0.83em;
+  color: inherit;
+}
+/* line 120, sass/_items.scss */
+.snax .snax-item-share-toggle:before {
+  display: inline-block;
+  margin-left: 6px;
+  font: 17px/1 "snaxicon";
+  vertical-align: middle;
+  content: "\e009";
+}
+/* line 132, sass/_items.scss */
+.snax .snax-item-share-content {
+  visibility: hidden;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+/* line 142, sass/_items.scss */
+.snax .snax-item-media-meta {
+  padding: 2px 10px;
+  margin: 0;
+  font-size: 0.83em;
+  line-height: 1.125;
+  text-align: left;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #666;
+}
+/* line 154, sass/_items.scss */
+.snax .snax-item-media-meta a {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  color: inherit;
+}
+/* line 164, sass/_items.scss */
+.snax .snax-item .snax-item-media {
+  margin-bottom: 10px;
+}
+/* line 167, sass/_items.scss */
+.snax .snax-item .snax-item-media .snax-item-media-container {
+  position: relative;
+}
+/* line 171, sass/_items.scss */
+.snax .snax-item .snax-item-media .snax-item-media-link {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+}
+/* line 184, sass/_items.scss */
+.snax .snax-item .snax-item-media .snax-item-media-meta {
+  position: absolute;
+  left: 1px;
+  right: auto;
+  bottom: 1px;
+}
+/* line 194, sass/_items.scss */
+.snax .snax-item-media .wp-post-image {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 201, sass/_items.scss */
+.snax .snax-item-media-desc {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+/* line 207, sass/_items.scss */
+.snax .snax-item-embed-code {
+  background-color: #f2f2f2;
+}
+/* line 210, sass/_items.scss */
+.snax .snax-item-embed-code iframe {
+  margin: 0;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* line 219, sass/_items.scss */
+.snax .snax-item-nav {
+  clear: both;
+  text-align: center;
+}
+/* line 224, sass/_items.scss */
+.snax .snax-item-prev {
+  margin-left: 1em;
+}
+/* line 227, sass/_items.scss */
+.snax .snax-item-prev:before {
+  content: " ›";
+}
+/* line 234, sass/_items.scss */
+.snax .snax-item-next {
+  margin-right: 1em;
+}
+/* line 237, sass/_items.scss */
+.snax .snax-item-next:after {
+  content: "‹ ";
+}
+
+/* line 249, sass/_items.scss */
+body.snax-hoverable .snax .snax-item-share:hover .snax-item-share-toggle,
+.snax .snax-item-share-expanded .snax-item-share-toggle {
+  visibility: hidden;
+}
+/* line 253, sass/_items.scss */
+body.snax-hoverable .snax .snax-item-share:hover .snax-item-share-content,
+.snax .snax-item-share-expanded .snax-item-share-content {
+  visibility: visible;
+}
+
+/* line 2, sass/_notes.scss */
+.snax .snax-note {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+/* line 8, sass/_notes.scss */
+.snax .snax-note .snax-note-title {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+/* line 13, sass/_notes.scss */
+.snax .snax-note p {
+  font-size: 1.17em;
+}
+/* line 18, sass/_notes.scss */
+.snax .snax-note-off {
+  display: none;
+}
+/* line 23, sass/_notes.scss */
+.snax .snax-note-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 30, sass/_notes.scss */
+.snax .snax-note-icon:before {
+  font: 34px/64px "snaxicon";
+  content: "\e008";
+}
+/* line 38, sass/_notes.scss */
+.snax .snax-note-success .snax-note-icon {
+  border-color: #6f9a37;
+  background-color: #6f9a37;
+  color: #fff;
+}
+/* line 46, sass/_notes.scss */
+.snax .snax-note-warning .snax-note-icon {
+  border-color: #fdc153;
+  background-color: #fdc153;
+  color: #fff;
+}
+/* line 51, sass/_notes.scss */
+.snax .snax-note-warning .snax-note-icon:before {
+  content: "\e00f";
+}
+
+/* line 2, sass/_voting.scss */
+.snax .snax-voting {
+  display: inline-block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 15, sass/_voting.scss */
+.snax .snax-voting:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 21, sass/_voting.scss */
+.snax .snax-voting .snax-voting-upvote {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-left: 5px;
+  font-size: 0;
+  line-height: 1;
+  vertical-align: middle;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+}
+/* line 42, sass/_voting.scss */
+.snax .snax-voting .snax-voting-upvote:before {
+  display: block;
+  font: 34px/1 "snaxicon";
+  content: "\e006";
+}
+/* line 50, sass/_voting.scss */
+.snax .snax-voting .snax-voting-downvote {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  -ms-flex-order: 4;
+  order: 4;
+  margin-right: 5px;
+  font-size: 0;
+  line-height: 1;
+  vertical-align: middle;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+}
+/* line 71, sass/_voting.scss */
+.snax .snax-voting .snax-voting-downvote:before {
+  display: block;
+  font: 34px/1 "snaxicon";
+  content: "";
+}
+/* line 78, sass/_voting.scss */
+.snax .snax-voting .snax-voting-upvote:not(:hover):not(.snax-user-voted),
+.snax .snax-voting .snax-voting-downvote:not(:hover):not(.snax-user-voted) {
+  color: inherit;
+  opacity: 0.333;
+}
+/* line 84, sass/_voting.scss */
+.snax .snax-voting .snax-voting-score {
+  display: inline-block;
+  -ms-flex-order: 6;
+  order: 6;
+  margin: 0 10px;
+  vertical-align: middle;
+  line-height: 1.125;
+}
+/* line 95, sass/_voting.scss */
+.snax .snax-voting .snax-voting-score strong {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+}
+/* line 105, sass/_voting.scss */
+.snax .snax-voting .snax-voting-details {
+  display: none;
+  font-size: 13px;
+  line-height: 1.125;
+  opacity: 0.666;
+}
+/* line 116, sass/_voting.scss */
+.snax .snax-voting-large {
+  display: block;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+}
+/* line 130, sass/_voting.scss */
+.snax .snax-voting-large .snax-voting-upvote,
+.snax .snax-voting-large .snax-voting-downvote {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+/* line 135, sass/_voting.scss */
+.snax .snax-voting-large .snax-voting-upvote:before,
+.snax .snax-voting-large .snax-voting-downvote:before {
+  font-size: 51px;
+}
+/* line 140, sass/_voting.scss */
+.snax .snax-voting-large .snax-voting-score {
+  -ms-flex-order: 3;
+  order: 3;
+}
+/* line 147, sass/_voting.scss */
+.snax .snax-voting-container {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+@-webkit-keyframes snax-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes snax-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 23, sass/_forms.scss */
+.snax {
+  /* Plupload wrapper */
+  /* Form before any media was even submitted */
+  /* Form with media inside */
+  /* Form without any media inside */
+}
+/* line 24, sass/_forms.scss */
+.snax .fr-toolbar {
+  border-top-width: 1px;
+  border-color: #e6e6e6;
+}
+/* line 34, sass/_forms.scss */
+.snax .fr-box .fr-counter {
+  font-family: sans-serif;
+}
+/* line 39, sass/_forms.scss */
+.snax .snax-hint {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 0.83em;
+  line-height: 1.25;
+}
+/* line 47, sass/_forms.scss */
+.snax .snax-error {
+  border: 1px solid red !important;
+}
+/* line 51, sass/_forms.scss */
+.snax .snax-validation-tip {
+  display: none;
+}
+/* line 56, sass/_forms.scss */
+.snax .snax-validation-error .snax-validation-tip {
+  display: block;
+  color: red;
+}
+/* line 60, sass/_forms.scss */
+.snax .snax-validation-error .snax-validation-tip:before {
+  margin-left: 0.5em;
+  font: 14px/1 "FontAwesome";
+  content: "\f071";
+  content: "\f06a";
+}
+/* line 70, sass/_forms.scss */
+.snax .snax-validation-error input[type=text],
+.snax .snax-validation-error textarea {
+  border-color: red;
+  background-color: #fff2f2;
+}
+/* line 76, sass/_forms.scss */
+.snax .snax-validation-error input[type=text]:focus,
+.snax .snax-validation-error textarea:focus {
+  border-color: red;
+}
+/* line 83, sass/_forms.scss */
+.snax .snax-upload #media-items {
+  display: none;
+}
+/* line 88, sass/_forms.scss */
+.snax .snax-upload-preview {
+  position: relative;
+}
+/* line 91, sass/_forms.scss */
+.snax .snax-upload-preview:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 97, sass/_forms.scss */
+.snax .snax-upload-preview img {
+  width: 100%;
+}
+/* line 103, sass/_forms.scss */
+.snax .snax .snax-upload-preview-delete {
+  float: left;
+  font-size: 0;
+}
+/* line 108, sass/_forms.scss */
+.snax .snax .snax-upload-preview-delete:before {
+  display: inline-block;
+  width: 32px;
+  text-align: center;
+  font: 17px/32px "snaxicon";
+  content: "\e005";
+}
+/* line 121, sass/_forms.scss */
+.snax .snax-upload {
+  position: relative;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+/* line 127, sass/_forms.scss */
+.snax .snax-upload:after {
+  display: block;
+  margin-top: 1.5em;
+  content: "";
+}
+/* line 133, sass/_forms.scss */
+.snax .snax-upload #drag-drop-area {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 30px 10px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #ccc;
+}
+/* line 142, sass/_forms.scss */
+.snax .snax-upload #drag-drop-area p {
+  margin: 0;
+}
+/* line 146, sass/_forms.scss */
+.snax .snax-upload #drag-drop-area .drag-drop-info {
+  font-size: 1.17em;
+  font-weight: 500;
+}
+/* line 151, sass/_forms.scss */
+.snax .snax-upload #drag-drop-area .drag-drop-buttons {
+  margin: 0.5em 0 30px;
+}
+/* line 156, sass/_forms.scss */
+.snax .snax-upload .max-upload-size {
+  margin-top: 0.25em;
+  font-size: 0.83em;
+  opacity: 0.666;
+}
+/* line 164, sass/_forms.scss */
+.snax .snax-form-side .snax-edit-post-row-media {
+  margin-bottom: 30px;
+}
+/* line 168, sass/_forms.scss */
+.snax .snax-form-side #drag-drop-area {
+  padding-top: 20px;
+  border-width: 1px;
+}
+/* line 172, sass/_forms.scss */
+.snax .snax-form-side #drag-drop-area .drag-drop-buttons {
+  margin-bottom: 10px;
+}
+/* line 176, sass/_forms.scss */
+.snax .snax-form-side #drag-drop-area input[type=button] {
+  font-size: 0.83em;
+}
+/* line 183, sass/_forms.scss */
+.snax .snax-legal-link {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  vertical-align: middle;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  border-color: #c6f0ff;
+  background-color: #c6f0ff;
+  color: #00688e;
+}
+/* line 206, sass/_forms.scss */
+.snax .snax-legal-link:before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font: italic 16px/24px Georgia, serif;
+  content: "i";
+}
+/* line 217, sass/_forms.scss */
+.snax .snax-legal-link:hover {
+  border-color: #00688e;
+  background-color: #00688e;
+  color: #fff;
+}
+/* line 226, sass/_forms.scss */
+.snax .snax-form-prior-media .snax-new-item-row-title,
+.snax .snax-form-prior-media .snax-new-item-row-description,
+.snax .snax-form-prior-media .snax-new-item-row-source,
+.snax .snax-form-prior-media .snax-new-item-row-legal,
+.snax .snax-form-prior-media .snax-new-item-row-actions {
+  display: none;
+}
+/* line 237, sass/_forms.scss */
+.snax .snax-form-with-media .snax-upload,
+.snax .snax-form-with-media .snax-new-item-row-embed-code {
+  display: none;
+}
+/* line 245, sass/_forms.scss */
+.snax .snax-form-without-media .snax-upload-preview-delete {
+  display: none;
+}
+/* line 249, sass/_forms.scss */
+.snax .snax-form-without-media .snax-new-item-row-source {
+  display: none;
+}
+/* line 254, sass/_forms.scss */
+.snax .snax-media {
+  position: relative;
+}
+/* line 259, sass/_forms.scss */
+.snax .snax-upload-icon {
+  display: none;
+  margin-top: -24px;
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  left: 0;
+  top: 50%;
+  font-size: 13px;
+  line-height: 1.25;
+  text-align: center;
+}
+/* line 273, sass/_forms.scss */
+.snax .snax-upload-icon:before {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  font: 34px/48px "snaxicon";
+  content: "\e004";
+}
+/* line 285, sass/_forms.scss */
+.snax .snax-new-item-wrapper-processing .snax-upload,
+.snax .snax-new-item-wrapper-processing .snax-new-item-row-embed-code {
+  visibility: hidden;
+}
+/* line 290, sass/_forms.scss */
+.snax .snax-new-item-wrapper-processing .snax-upload-icon {
+  display: block;
+}
+/* line 293, sass/_forms.scss */
+.snax .snax-new-item-wrapper-processing .snax-upload-icon:before {
+  -webkit-animation: snax-spin 2s infinite linear;
+  animation: snax-spin 2s infinite linear;
+}
+/* line 301, sass/_forms.scss */
+.snax .snax-new-embeds-url {
+  margin-bottom: 10px;
+}
+/* line 304, sass/_forms.scss */
+.snax .snax-new-embeds-url textarea {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+/* line 313, sass/_forms.scss */
+.snax .snax-new-embeds-actions {
+  display: none;
+  text-align: left;
+}
+
+/* line 2, sass/_forms.new.tabs.scss */
+.snax .snax-tab-content {
+  display: none;
+}
+/* line 6, sass/_forms.new.tabs.scss */
+.snax .snax-tab-content-current {
+  display: block;
+}
+/* line 10, sass/_forms.new.tabs.scss */
+.snax .snax-tab-content-hidden {
+  display: none;
+}
+/* line 14, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav {
+  margin: 0 0 10px;
+}
+/* line 17, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 23, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.25em 0.5em;
+  border-width: 1px;
+  line-height: 1.25;
+  text-align: center;
+  border-style: solid;
+  cursor: pointer;
+}
+/* line 38, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item:first-child {
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 0 0;
+}
+/* line 42, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item:last-child {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 4px 4px;
+}
+/* line 46, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item:before {
+  display: inline-block;
+  margin-left: 0.333em;
+  font-size: 24px;
+  font-family: "snaxicon";
+  vertical-align: middle;
+}
+/* line 56, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item-current {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -1px;
+}
+/* line 61, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item-current:first-child {
+  margin-right: 0;
+  margin-left: -1px;
+}
+/* line 70, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item-image:before {
+  content: "\e000";
+}
+/* line 71, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item-embed:before {
+  content: "\e002";
+}
+/* line 73, sass/_forms.new.tabs.scss */
+.snax .snax-tabs-nav .snax-tabs-nav-item:not(.snax-tabs-nav-item-current) {
+  color: inherit;
+}
+/* line 78, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper {
+  margin: 0 0 10px;
+}
+/* line 81, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 87, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper .nav-tab {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.25em 0.5em;
+  border-width: 1px;
+  line-height: 1.25;
+  text-align: center;
+  border-style: solid;
+  cursor: pointer;
+}
+/* line 102, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper .nav-tab:first-child {
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 0 0;
+}
+/* line 106, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper .nav-tab:last-child {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 4px 4px;
+}
+/* line 111, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper .nav-tab-active {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -1px;
+}
+/* line 116, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper .nav-tab-active:first-child {
+  margin-right: 0;
+  margin-left: -1px;
+}
+/* line 122, sass/_forms.new.tabs.scss */
+.snax .nav-tab-wrapper .nav-tab:not(.nav-tab-active) {
+  color: inherit;
+}
+@media only screen and (min-width: 601px) {
+  /* line 130, sass/_forms.new.tabs.scss */
+  .snax .snax-tabs-nav .snax-tabs-nav-item {
+    float: right;
+    width: 50%;
+  }
+  /* line 134, sass/_forms.new.tabs.scss */
+  .snax .snax-tabs-nav .snax-tabs-nav-item:first-child {
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 0 0 4px;
+  }
+  /* line 138, sass/_forms.new.tabs.scss */
+  .snax .snax-tabs-nav .snax-tabs-nav-item:last-child {
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 4px 4px 0;
+  }
+  /* line 143, sass/_forms.new.tabs.scss */
+  .snax .snax-tabs-nav .snax-tabs-nav-item-current {
+    margin-bottom: 0;
+    margin-right: -1px;
+  }
+  /* line 150, sass/_forms.new.tabs.scss */
+  .snax .nav-tab-wrapper .nav-tab {
+    float: right;
+    width: 50%;
+  }
+  /* line 154, sass/_forms.new.tabs.scss */
+  .snax .nav-tab-wrapper .nav-tab:first-child {
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 0 0 4px;
+  }
+  /* line 158, sass/_forms.new.tabs.scss */
+  .snax .nav-tab-wrapper .nav-tab:last-child {
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 4px 4px 0;
+  }
+  /* line 163, sass/_forms.new.tabs.scss */
+  .snax .nav-tab-wrapper .nav-tab-active {
+    margin-bottom: 0;
+    margin-right: -1px;
+  }
+}
+
+/* line 330, sass/_forms.scss */
+.js .hide-if-js {
+  display: none;
+}
+
+/* Frontend submission */
+/* line 2, sass/_forms.new.post.scss */
+.snax {
+  /* Source - space optimization */
+}
+/* line 4, sass/_forms.new.post.scss */
+.snax .snax-form-frontend:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 10, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-title {
+  margin: 0 0 30px;
+}
+/* line 13, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-title label {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 21, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-title input[type=text] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #000;
+}
+/* line 34, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-source {
+  margin: 0 0 30px;
+}
+/* line 37, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-source input[type="text"] {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* line 44, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-description {
+  margin: 0 0 30px;
+  position: relative;
+}
+/* line 48, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-description label {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 56, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-description textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+/* line 62, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-description .fr-toolbar.fr-top {
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 69, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-description .fr-box.fr-basic.fr-top .fr-wrapper {
+  border-width: 1px;
+  border-style: solid;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #e6e6e6;
+}
+/* line 80, sass/_forms.new.post.scss */
+.snax .snax-form-frontend #snax-post-title-editable:empty:before {
+  content: attr(data-snax-placeholder);
+}
+/* line 86, sass/_forms.new.post.scss */
+.snax .snax-form-frontend #snax-post-title-editable:focus:before {
+  content: " ";
+}
+/* line 91, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-content {
+  padding-bottom: 40px;
+  position: relative;
+}
+/* line 98, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-content .mce-tinymce {
+  width: 100% !important;
+  border-width: 0 !important;
+  position: absolute;
+}
+/* line 104, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-content .mce-edit-focus {
+  outline: none;
+}
+/* line 108, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-content #wp-snax-post-description-wrap {
+  display: none;
+}
+/* line 113, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-categories {
+  margin: 0 0 30px;
+}
+/* line 116, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-categories label {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 125, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-categories select {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+}
+/* line 133, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags {
+  margin: 0 0 20px;
+}
+/* line 136, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags label {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 145, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags input[type=text] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+}
+/* line 151, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags input.tagit-hidden-field {
+  display: none;
+}
+/* line 155, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags ul.tagit {
+  padding: 4px 8px;
+  margin: 0 0 5px;
+}
+/* line 160, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags .tagit ~ .snax-hint {
+  visibility: hidden;
+}
+/* line 161, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags .tagit-focus ~ .snax-hint {
+  visibility: visible;
+}
+/* line 163, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags .ui-autocomplete {
+  box-sizing: border-box;
+  z-index: 3;
+  right: 0;
+  left: 0;
+  width: auto !important;
+  padding: 4px 0;
+}
+/* line 174, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags .tagit-autocomplete.ui-menu .ui-menu-item {
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+/* line 179, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-tags .tagit-autocomplete .ui-state-hover,
+.snax .snax-form-frontend .snax-edit-post-row-tags .tagit-autocomplete .ui-state-focus {
+  border: none;
+}
+/* line 185, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-categories + .snax-edit-post-row-tags {
+  margin-top: -20px;
+}
+/* line 189, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-list-options {
+  margin: 0 0 30px;
+}
+/* line 193, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-legal {
+  margin: 0 0 15px;
+  font-size: 0.83em;
+}
+/* line 197, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-legal label {
+  font-weight: normal;
+  cursor: pointer;
+}
+/* line 203, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-actions {
+  margin: 0 0 30px;
+}
+/* line 206, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-edit-post-row-actions input[type=submit] {
+  width: 100%;
+}
+/* line 211, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-draft-post-row-actions {
+  margin: 0 -5px 10px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 218, sass/_forms.new.post.scss */
+.snax .snax-form-frontend .snax-draft-post-row-actions .snax-button {
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+@media only screen and (min-width: 820px) {
+  /* line 227, sass/_forms.new.post.scss */
+  .snax .snax-form-main {
+    float: right;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 66.66667%;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 236, sass/_forms.new.post.scss */
+  .snax .snax-form-side {
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding-right: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+  }
+  /* line 246, sass/_forms.new.post.scss */
+  body.admin-bar .snax .snax-form-side {
+    top: 42px;
+  }
+}
+/* line 255, sass/_forms.new.post.scss */
+.snax .snax-form-frontend-without-media .snax-form-main {
+  float: none;
+  padding: 0;
+}
+/* line 259, sass/_forms.new.post.scss */
+.snax .snax-form-frontend-without-media .snax-form-main .snax-edit-post-row-media {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+/* line 264, sass/_forms.new.post.scss */
+.snax .snax-form-frontend-without-media .snax-form-main .snax-edit-post-row-title,
+.snax .snax-form-frontend-without-media .snax-form-main .snax-edit-post-row-description,
+.snax .snax-form-frontend-without-media .snax-form-main .snax-edit-post-row-source,
+.snax .snax-form-frontend-without-media .snax-form-main .snax-cards {
+  display: none;
+}
+/* line 272, sass/_forms.new.post.scss */
+.snax .snax-form-frontend-without-media .snax-form-main {
+  width: 100%;
+}
+/* line 276, sass/_forms.new.post.scss */
+.snax .snax-form-frontend-without-media .snax-form-side {
+  display: none;
+}
+/* line 282, sass/_forms.new.post.scss */
+.snax .snax-edit-post-row-image + .snax-edit-post-row-source {
+  margin-top: calc( -30px - 32px);
+}
+/* line 285, sass/_forms.new.post.scss */
+.snax .snax-edit-post-row-image + .snax-edit-post-row-source input[type=checkbox] {
+  margin-left: 0.333em;
+}
+/* line 289, sass/_forms.new.post.scss */
+.snax .snax-edit-post-row-image + .snax-edit-post-row-source label {
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 32px;
+  padding: 4px 0;
+  margin-left: 64px;
+  cursor: pointer;
+}
+/* line 300, sass/_forms.new.post.scss */
+.snax .snax-edit-post-row-image + .snax-edit-post-row-source input[type=text] {
+  display: none;
+}
+/* line 304, sass/_forms.new.post.scss */
+.snax .snax-edit-post-row-image + .snax-edit-post-row-source input[type=checkbox]:checked ~ input[type=text] {
+  display: block;
+}
+/* line 310, sass/_forms.new.post.scss */
+.snax .snax-form-frontend-with-removed-media .snax-edit-post-row-source {
+  display: none;
+}
+/* line 317, sass/_forms.new.post.scss */
+.snax .snax-edit-post-row-tags .ui-widget {
+  font-size: 1em;
+}
+
+/**
+ * New item form
+ */
+/* line 5, sass/_forms.new.item.scss */
+.snax .snax-new-item-wrapper {
+  clear: both;
+  position: relative;
+  z-index: 0;
+  padding: 10px 10px 1px;
+  margin: 0 0 30px;
+}
+@media only screen and (min-width: 1025px) {
+  /* line 13, sass/_forms.new.item.scss */
+  .snax .snax-new-item-wrapper {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+/* line 21, sass/_forms.new.item.scss */
+.snax .snax-new-item-wrapper:before {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background-color: currentColor;
+  opacity: 0.0833;
+}
+/* line 36, sass/_forms.new.item.scss */
+.snax .snax-new-item-wrapper .snax-new-item-title {
+  margin-top: 0;
+}
+/* line 41, sass/_forms.new.item.scss */
+.snax .snax-new-item-wrapper-title {
+  text-align: center;
+}
+/* line 45, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-legal {
+  font-size: 0.83em;
+}
+/* line 48, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-legal label {
+  cursor: pointer;
+}
+/* line 56, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-title label,
+.snax .snax-new-item-row-description label,
+.snax .snax-new-item-row-embed-code label {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 67, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-title input[type=text] {
+  width: 100%;
+  font-size: 1.17em;
+}
+/* line 74, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-description textarea {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* line 82, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-embed-code textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* line 91, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-source input[type=checkbox] {
+  margin-left: 0.333em;
+}
+/* line 95, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-source label {
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 32px;
+  padding: 4px 0;
+  margin-left: 64px;
+  cursor: pointer;
+}
+/* line 106, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-source input[type=text] {
+  display: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* line 112, sass/_forms.new.item.scss */
+.snax .snax-new-item-row-source input[type=checkbox]:checked ~ input[type=text] {
+  display: block;
+}
+
+@-moz-keyframes snax-cursor-blink {
+  50% {
+    border-color: transparent;
+  }
+}
+/* line 16, sass/_forms.editor.scss */
+.snax p.snax-fix-firefox {
+  border-right: 1px solid #000;
+  -moz-animation-name: snax-cursor-blink;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: cubic-bezier(0.5, 0, 1, 1);
+  -moz-animation-duration: 2.0s;
+}
+/* line 25, sass/_forms.editor.scss */
+.snax #snax-post-title-editable {
+  margin-bottom: 0 !important;
+}
+/* line 31, sass/_forms.editor.scss */
+.snax .snax-insert-button {
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  left: auto;
+}
+/* line 38, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-toggle {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  border-width: 1px;
+  position: absolute;
+  left: 100%;
+  right: auto;
+  top: 0;
+  top: calc( ( 1.5em - 32px ) / 2 );
+  margin-left: 10px;
+  text-align: center;
+  border-style: solid;
+  color: inherit;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0.666;
+}
+/* line 62, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-toggle:before {
+  display: block;
+  font: normal 17px/30px "snaxicon";
+  content: "\e014";
+}
+/* line 68, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-toggle:hover {
+  opacity: 1;
+}
+/* line 74, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-toggle.snax-expanded:before {
+  content: "\e010";
+}
+/* line 79, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-edit-post-row-media {
+  padding: 20px 20px 10px;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: auto;
+  background: #f2f2f2;
+}
+/* line 94, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-upload {
+  margin-bottom: 0;
+}
+/* line 97, sass/_forms.editor.scss */
+.snax .snax-insert-button .snax-upload .max-upload-size {
+  margin-bottom: 10px;
+}
+/* line 104, sass/_forms.editor.scss */
+.snax .snax-insert-button-from-bottom .snax-edit-post-row-media {
+  top: auto;
+  bottom: -32px;
+}
+/* line 110, sass/_forms.editor.scss */
+.snax .snax-edit-post-row-media.snax-off {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 116, sass/_forms.editor.scss */
+.snax p.snax-focused {
+  position: relative;
+}
+/* line 119, sass/_forms.editor.scss */
+.snax p.snax-focused .snax-remove {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  border-width: 1px;
+  position: absolute;
+  left: 10px;
+  right: auto;
+  top: 10px;
+  font-size: 0;
+  text-align: center;
+  border-style: solid;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/* line 142, sass/_forms.editor.scss */
+.snax p.snax-focused .snax-remove:before {
+  font: normal 17px/30px "snaxicon";
+  content: "\e005";
+}
+/* line 151, sass/_forms.editor.scss */
+.snax .snax-editor-figure {
+  position: relative;
+}
+/* line 154, sass/_forms.editor.scss */
+.snax .snax-editor-figure img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 159, sass/_forms.editor.scss */
+.snax .snax-editor-figure input.snax-source {
+  display: block;
+  width: 90%;
+  width: calc( 100% - 20px );
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  border-color: transparent;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.666);
+  color: #fff;
+}
+/* line 177, sass/_forms.editor.scss */
+.snax .snax-editor-figure.snax-focused {
+  background: #e6e6e6;
+}
+/* line 184, sass/_forms.editor.scss */
+.snax .snax-embed-layer {
+  position: relative;
+  /* iFrame blocking overlay */
+}
+/* line 188, sass/_forms.editor.scss */
+.snax .snax-embed-layer:after {
+  display: block;
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  background: transparent;
+  content: "";
+}
+/* line 204, sass/_forms.editor.scss */
+.snax .snax-embed-layer .snax-remove {
+  position: absolute;
+  z-index: 10;
+  left: 10px;
+  right: auto;
+  top: 10px;
+}
+/* line 212, sass/_forms.editor.scss */
+.snax .snax-embed-layer iframe {
+  display: block;
+  margin: 0 auto;
+}
+/* line 218, sass/_forms.editor.scss */
+.snax .snax-embed-url {
+  display: none;
+}
+
+/* line 4, sass/_sharing.scss */
+.snax .snax-item-share-content {
+  width: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+/* line 11, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 48px;
+  border-width: 2px;
+  margin: 0 auto;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  border-style: solid;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  color: #fff;
+}
+/* line 34, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share:before {
+  color: inherit;
+  font: 18px/44px "snaxicon";
+}
+/* line 39, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share:hover {
+  opacity: 0.8;
+}
+/* line 44, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share-facebook {
+  border-color: #2d5f9a;
+  background-color: #2d5f9a;
+}
+/* line 48, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share-facebook:before {
+  content: "";
+}
+/* line 53, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share-twitter {
+  border-color: #00c3f3;
+  background-color: #00c3f3;
+}
+/* line 57, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share-twitter:before {
+  content: "";
+}
+/* line 62, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share-pinterest {
+  border-color: #bd081c;
+  background-color: #bd081c;
+}
+/* line 66, sass/_sharing.scss */
+.snax .snax-item-share-content .snax-share-pinterest:before {
+  content: "";
+}
+
+/**
+ * WordPress Social Login integration
+ */
+/* line 5, sass/_wpsl.scss */
+.snax .snax-wpsl {
+  /* Windows Live */
+}
+/* line 6, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-list {
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+/* line 11, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider {
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  border-width: 2px;
+  padding: 10px 15px;
+  margin: 0 0 5px;
+  border-style: solid;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  color: #fff;
+}
+@media only screen and (min-width: 769px) {
+  /* line 32, sass/_wpsl.scss */
+  .snax .snax-wpsl .wp-social-login-provider {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+/* line 38, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider:before {
+  display: inline-block;
+  width: 1em;
+  margin-left: 10px;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "FontAwesome";
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 53, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-facebook {
+  border-color: #2d5f9a;
+  background-color: #2d5f9a;
+}
+/* line 57, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-facebook:before {
+  content: "";
+}
+/* line 62, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-twitter {
+  border-color: #00c3f3;
+  background-color: #00c3f3;
+}
+/* line 66, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-twitter:before {
+  content: "";
+}
+/* line 71, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-google {
+  border-color: #dc4e41;
+  background-color: #dc4e41;
+}
+/* line 75, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-google:before {
+  content: "";
+}
+/* line 80, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-tumblr {
+  border-color: #36465d;
+  background-color: #36465d;
+}
+/* line 84, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-tumblr:before {
+  content: "";
+}
+/* line 89, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-linkedin {
+  border-color: #0077b5;
+  background-color: #0077b5;
+}
+/* line 93, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-linkedin:before {
+  content: "";
+}
+/* line 98, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-instagram {
+  border-color: #125688;
+  background-color: #125688;
+}
+/* line 102, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-instagram:before {
+  content: "";
+}
+/* line 107, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-vkontakte {
+  border-color: #6383a8;
+  background-color: #6383a8;
+}
+/* line 111, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-vkontakte:before {
+  content: "";
+}
+/* line 116, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-yahoo {
+  border-color: #440099;
+  background-color: #440099;
+}
+/* line 120, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-yahoo:before {
+  content: "";
+}
+/* line 125, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-wordpress {
+  border-color: #21759b;
+  background-color: #21759b;
+}
+/* line 129, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-wordpress:before {
+  content: "";
+}
+/* line 134, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-odnoklassniki {
+  border-color: #f4731c;
+  background-color: #f4731c;
+}
+/* line 138, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-odnoklassniki:before {
+  content: "";
+}
+/* line 143, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-steam {
+  border-color: #000;
+  background-color: #000;
+}
+/* line 147, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-steam:before {
+  content: "";
+}
+/* line 152, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-twitchtv {
+  border-color: #6441a5;
+  background-color: #6441a5;
+}
+/* line 156, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-twitchtv:before {
+  content: "";
+}
+/* line 162, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-live {
+  border-color: #0072c6;
+  background-color: #0072c6;
+}
+/* line 166, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-live:before {
+  content: "";
+}
+/* line 171, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-reddit {
+  border-color: #ff4500;
+  background-color: #ff4500;
+}
+/* line 175, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-reddit:before {
+  content: "";
+}
+/* line 180, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-lastfm {
+  border-color: #d51007;
+  background-color: #d51007;
+}
+/* line 184, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-lastfm:before {
+  content: "";
+}
+/* line 189, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-dribbble {
+  border-color: #ea4c89;
+  background-color: #ea4c89;
+}
+/* line 193, sass/_wpsl.scss */
+.snax .snax-wpsl .wp-social-login-provider-dribbble:before {
+  content: "";
+}
+
+/* line 2, sass/_forms.login.scss */
+.snax .snax-divider-or {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+/* line 8, sass/_forms.login.scss */
+.snax .snax-divider-or > span {
+  display: inline-block;
+  position: relative;
+}
+/* line 12, sass/_forms.login.scss */
+.snax .snax-divider-or > span:before {
+  display: block;
+  width: 999px;
+  height: 0;
+  border-width: 1px 0 0;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 100%;
+  right: auto;
+  top: 50%;
+  border-style: solid;
+  content: "";
+  opacity: 0.1667;
+}
+/* line 32, sass/_forms.login.scss */
+.snax .snax-divider-or > span:after {
+  display: block;
+  width: 999px;
+  height: 0;
+  border-width: 1px 0 0;
+  margin-right: 20px;
+  position: absolute;
+  z-index: 1;
+  right: 100%;
+  left: auto;
+  top: 50%;
+  border-style: solid;
+  content: "";
+  opacity: 0.1667;
+}
+
+/* @todo */
+/* line 58, sass/_forms.login.scss */
+.white-popup {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  background: #fff;
+  padding: 30px 20px 15px 20px;
+  width: auto;
+  max-width: 480px;
+  margin: 20px auto;
+}
+/* line 68, sass/_forms.login.scss */
+.white-popup .wp-social-login-connect-with,
+.white-popup .snax-form-legend-sign-in {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 78, sass/_forms.login.scss */
+.white-popup .login-username label {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 87, sass/_forms.login.scss */
+.white-popup .login-username input[type=text] {
+  width: 100%;
+}
+/* line 93, sass/_forms.login.scss */
+.white-popup .login-password label {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 102, sass/_forms.login.scss */
+.white-popup .login-password .snax-link-forgot-pass {
+  display: table;
+  margin-right: auto;
+  margin-left: 0;
+  font-size: 0.83em;
+}
+/* line 109, sass/_forms.login.scss */
+.white-popup .login-password input[type=password] {
+  clear: both;
+  width: 100%;
+}
+/* line 116, sass/_forms.login.scss */
+.white-popup .login-submit input[type=submit] {
+  width: 100%;
+}
+/* line 121, sass/_forms.login.scss */
+.white-popup .snax-form-tip-register {
+  margin-top: -0.75em;
+  text-align: center;
+}
+/* line 126, sass/_forms.login.scss */
+.white-popup .mfp-close {
+  width: 30px;
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 481px) {
+  /* line 139, sass/_forms.login.scss */
+  .white-popup {
+    padding: 45px 30px 15px 30px;
+  }
+}
+/* line 5, sass/_cards.scss */
+.snax .snax-card {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 702px;
+  padding: 0 32px 0 32px;
+  margin: 0 auto 30px;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+}
+/* line 20, sass/_cards.scss */
+.snax .snax-card-body {
+  padding: 10px 10px 1px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  background: #f2f2f2;
+}
+/* line 29, sass/_cards.scss */
+.snax-card-focus .snax .snax-card-body {
+  border-color: #e6e6e6;
+  background: #fff;
+}
+@media only screen and (min-width: 1025px) {
+  /* line 37, sass/_cards.scss */
+  .snax .snax-card-body {
+    padding: 30px 30px 1px 30px;
+  }
+}
+/* line 43, sass/_cards.scss */
+.snax .snax-card-title label {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 51, sass/_cards.scss */
+.snax .snax-card-title input[type=text] {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+/* line 59, sass/_cards.scss */
+.snax .snax-card-media {
+  margin: 0 0 15px;
+}
+/* line 62, sass/_cards.scss */
+.snax .snax-card-media img {
+  width: 100%;
+  display: block;
+}
+/* line 68, sass/_cards.scss */
+.snax .snax-card-source {
+  margin-top: -15px;
+}
+/* line 71, sass/_cards.scss */
+.snax .snax-card-source input[type=checkbox] {
+  margin-left: 0.333em;
+}
+/* line 75, sass/_cards.scss */
+.snax .snax-card-source label {
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 0;
+  min-height: 32px;
+  margin-left: 64px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+/* line 88, sass/_cards.scss */
+.snax .snax-card-source input[type=text] {
+  display: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+/* line 95, sass/_cards.scss */
+.snax .snax-card-source input[type=checkbox]:checked ~ input[type=text] {
+  display: block;
+}
+/* line 100, sass/_cards.scss */
+.snax .snax-card-description {
+  position: static;
+}
+/* line 103, sass/_cards.scss */
+.snax .snax-card-description label {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 111, sass/_cards.scss */
+.snax .snax-card-description textarea {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+/* line 124, sass/_cards.scss */
+.snax .snax-card .snax-card-up,
+.snax .snax-card .snax-card-down {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font: 17px/32px "snaxicon";
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  border-color: transparent;
+  background-color: transparent;
+  color: inherit;
+  opacity: 0.666;
+}
+/* line 150, sass/_cards.scss */
+.snax .snax-card .snax-card-up:before,
+.snax .snax-card .snax-card-down:before {
+  display: block;
+  width: 32px;
+  height: 32px;
+  content: "\e006";
+}
+/* line 158, sass/_cards.scss */
+.snax .snax-card .snax-card-up:hover,
+.snax .snax-card .snax-card-down:hover {
+  opacity: 0.999;
+}
+/* line 168, sass/_cards.scss */
+.snax .snax-card .snax-card-down:before {
+  content: "\e007";
+}
+/* line 176, sass/_cards.scss */
+.snax .snax-card:first-of-type .snax-card-up {
+  pointer-events: none;
+  opacity: 0.1666;
+}
+/* line 183, sass/_cards.scss */
+.snax .snax-card:last-of-type .snax-card-down {
+  pointer-events: none;
+  opacity: 0.1666;
+}
+/* line 190, sass/_cards.scss */
+.snax .snax-card .snax-card-action {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font: 17px/32px "snaxicon";
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  color: inherit;
+  opacity: 0.666;
+}
+/* line 211, sass/_cards.scss */
+.snax .snax-card .snax-card-action:before {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+/* line 217, sass/_cards.scss */
+.snax .snax-card .snax-card-action:hover {
+  opacity: 0.999;
+}
+/* line 222, sass/_cards.scss */
+.snax .snax-card .snax-card-action-delete:before {
+  content: "\e005";
+}
+/* line 226, sass/_cards.scss */
+.snax .snax-card-position {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 32px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  left: auto;
+  right: 0;
+  top: 30px;
+  text-align: center;
+  font-size: 1.25em;
+}
+/* line 243, sass/_cards.scss */
+.snax .snax-card-header {
+  position: absolute;
+  right: auto;
+  left: 0;
+}
+/* line 248, sass/_cards.scss */
+.snax .snax-card-header:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* line 2, sass/_feedback.scss */
+.snax .snax-feedback {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999999;
+  right: 0;
+  left: auto;
+  top: 0;
+  background-color: black;
+  background-color: transparent;
+  -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out;
+}
+
+/* line 26, sass/_feedback.scss */
+body.snax-show-feedback .snax .snax-feedback-on {
+  display: block;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.666);
+}
+
+/* line 32, sass/_feedback.scss */
+.snax {
+  /* X of Y */
+}
+/* line 33, sass/_feedback.scss */
+.snax .snax-feedback-inner {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 480px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  left: auto;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+/* line 53, sass/_feedback.scss */
+.snax .snax-xofy {
+  margin: 0 auto 30px;
+  font-size: 96px;
+  line-height: 1;
+}
+/* line 59, sass/_feedback.scss */
+.snax .snax-xofy-x,
+.snax .snax-xofy-of,
+.snax .snax-xofy-y {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 66, sass/_feedback.scss */
+.snax .snax-xofy-of {
+  font-size: 0.75em;
+  font-weight: 300;
+}
+/* line 75, sass/_feedback.scss */
+.snax .snax-progress {
+  overflow: hidden;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0.5em auto;
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 90, sass/_feedback.scss */
+.snax .snax-progress-bar {
+  -moz-transition: width 0.175s ease-in-out;
+  -o-transition: width 0.175s ease-in-out;
+  -webkit-transition: width 0.175s ease-in-out;
+  transition: width 0.175s ease-in-out;
+  height: 4px;
+  background: #fff;
+}
+
+/* line 2, sass/_messages.scss */
+.snax .snax-message {
+  padding: 1em 1em 1px;
+  margin: 0 0 1.5em;
+}
+/* line 6, sass/_messages.scss */
+.snax .snax-message > p {
+  margin: 0 0 1em;
+}
+/* line 11, sass/_messages.scss */
+.snax .snax-message-success {
+  background-color: #efc;
+  color: #250;
+}
+/* line 16, sass/_messages.scss */
+.snax .snax-message-error {
+  background-color: #fdc;
+  color: #800;
+}
+/* line 21, sass/_messages.scss */
+.snax .snax-message-warning {
+  background-color: #ffe0af;
+  color: #800;
+}
+
+/* line 2, sass/_widgets.scss */
+.snax-widget-cta .snax-button-create {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 9, sass/_widgets.scss */
+.snax .snax-cta-text-before {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+/* line 19, sass/_widgets.scss */
+.snax .snax-list-collection {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 25, sass/_widgets.scss */
+.snax .snax-list-collection-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 30, sass/_widgets.scss */
+.snax .snax-list-collection-item > div {
+  margin-bottom: 20px;
+}
+/* line 34, sass/_widgets.scss */
+.snax .snax-list-collection-item > div:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 40, sass/_widgets.scss */
+.snax .snax-list-collection-item > div > a {
+  display: block;
+  float: right;
+  width: 80px;
+  margin-left: 15px;
+}
+/* line 46, sass/_widgets.scss */
+.snax .snax-list-collection-item > div > a img {
+  display: block;
+}
+
+/* line 100, sass/_base.scss */
+.snax-ad-location {
+  margin: 3em 0;
+}
+/* line 103, sass/_base.scss */
+.snax-ad-location img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 2, sass/_formats.scss */
+.snax .snax-formats {
+  margin: 0 -5px 1.5rem -5px;
+  padding: 0;
+  list-style: none;
+  letter-spacing: -0.31em;
+  /* collapse white-space between units */
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+/* line 22, sass/_formats.scss */
+.snax .snax-formats > li {
+  display: inline-block;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 5px 10px;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+/* line 40, sass/_formats.scss */
+.snax .snax-formats .snax-format {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: 1px solid #e6e6e6;
+  padding: 25px 15px 15px;
+  text-align: center;
+  -moz-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+/* line 59, sass/_formats.scss */
+.snax .snax-formats .snax-format:hover {
+  border-color: #f2f2f2;
+  background-color: #f2f2f2;
+}
+@media only screen and (min-width: 769px) {
+  /* line 68, sass/_formats.scss */
+  .snax .snax-formats > li {
+    width: 50%;
+  }
+  /* line 69, sass/_formats.scss */
+  .snax .snax-formats-1 > li {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 75, sass/_formats.scss */
+  .snax .snax-formats > li > a {
+    padding: 30px;
+  }
+}
+/* line 83, sass/_formats.scss */
+.snax .snax-format-icon {
+  display: block;
+  width: 68px;
+  height: 68px;
+  margin: 0 auto 0.5em;
+}
+/* line 89, sass/_formats.scss */
+.snax .snax-format-icon:before {
+  font: 68px/1 "snaxicon";
+}
+/* line 95, sass/_formats.scss */
+.snax .snax-format-image .snax-format-icon:before {
+  content: "\e000";
+}
+/* line 96, sass/_formats.scss */
+.snax .snax-format-gallery .snax-format-icon:before {
+  content: "\e001";
+}
+/* line 97, sass/_formats.scss */
+.snax .snax-format-embed .snax-format-icon:before {
+  content: "\e002";
+}
+/* line 98, sass/_formats.scss */
+.snax .snax-format-list .snax-format-icon:before {
+  content: "\e018";
+}
+/* line 99, sass/_formats.scss */
+.snax .snax-format-classic_list .snax-format-icon:before {
+  content: "\e016";
+}
+/* line 100, sass/_formats.scss */
+.snax .snax-format-ranked_list .snax-format-icon:before {
+  content: "\e019";
+}
+/* line 101, sass/_formats.scss */
+.snax .snax-format-text .snax-format-icon:before {
+  content: "\e013";
+}
+/* line 102, sass/_formats.scss */
+.snax .snax-format-meme .snax-format-icon:before {
+  content: "\e015";
+}
+/* line 103, sass/_formats.scss */
+.snax .snax-format-trivia_quiz .snax-format-icon:before {
+  content: "\e01a";
+}
+/* line 104, sass/_formats.scss */
+.snax .snax-format-personality_quiz .snax-format-icon:before {
+  content: "\e003";
+}
+/* line 106, sass/_formats.scss */
+.snax .snax-format-label {
+  margin: 0.5em 0;
+}
+/* line 110, sass/_formats.scss */
+.snax .snax-format-desc {
+  opacity: 0.666;
+}
+
+/* line 117, sass/_base.scss */
+.snax .snax-votes > article + article {
+  margin-top: 4.5em;
+}
+/* line 129, sass/_base.scss */
+.snax .snax-date-wrapper {
+  display: inline;
+}
+/* line 133, sass/_base.scss */
+.snax .snax-date-wrapper-unfriendly {
+  display: none;
+}
+/* line 137, sass/_base.scss */
+.snax .snax-time-wrapper {
+  display: none;
+}
+/* line 141, sass/_base.scss */
+.snax .snax-time-wrapper-friendly {
+  display: inline;
+}
+/* line 148, sass/_base.scss */
+.snax .snax-object {
+  margin-bottom: 30px;
+}
+/* line 152, sass/_base.scss */
+.snax .snax-object-container {
+  background-color: #e6e6e6;
+}
+/* line 155, sass/_base.scss */
+.snax .snax-object-container iframe {
+  display: block;
+  margin: 0 auto;
+}
+/* line 160, sass/_base.scss */
+.snax .snax-object-container img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 168, sass/_base.scss */
+.snax .snax-object-actions {
+  text-align: left;
+}
+/* line 171, sass/_base.scss */
+.snax .snax-object-actions .snax-object-action {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 32px;
+  font-size: 0;
+  text-align: center;
+}
+/* line 181, sass/_base.scss */
+.snax .snax-object-actions .snax-object-action:before {
+  font: 17px/32px "snaxicon";
+  content: "\e005";
+}
+/* line 194, sass/_base.scss */
+.snax .snax-states {
+  display: flex;
+  overflow: hidden;
+  min-width: 280px;
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.333);
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+}
+/* line 210, sass/_base.scss */
+.snax .snax-state {
+  flex-grow: 1;
+  width: 16px;
+  height: 8px;
+  margin: 0;
+  position: relative;
+  font-size: 0;
+}
+/* line 220, sass/_base.scss */
+.snax .snax-state:before {
+  display: block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: auto;
+  top: 0;
+  -moz-transition: width 0.1s ease-in-out;
+  -o-transition: width 0.1s ease-in-out;
+  -webkit-transition: width 0.1s ease-in-out;
+  transition: width 0.1s ease-in-out;
+  content: "";
+}
+/* line 237, sass/_base.scss */
+.snax .snax-state-success:before {
+  width: 100%;
+  background-color: #9fd558;
+}
+/* line 244, sass/_base.scss */
+.snax .snax-state-error:before {
+  width: 100%;
+  background-color: #ff6e6e;
+}
+/* line 251, sass/_base.scss */
+.snax .snax-close-button {
+  display: none;
+  color: #fff;
+  font-size: 13px;
+}
+/* line 256, sass/_base.scss */
+.snax .snax-close-button:before {
+  display: block;
+  font: 34px/1 "snaxicon";
+  content: "\e010";
+}
+/* line 265, sass/_base.scss */
+.snax .snax-details-expanded .snax-close-button {
+  display: block;
+}
+/* line 269, sass/_base.scss */
+.snax .snax-details-expanded .snax-xofy,
+.snax .snax-details-expanded .snax-progress,
+.snax .snax-details-expanded .snax-text-processing {
+  display: none;
+}
+/* line 275, sass/_base.scss */
+.snax .snax-details-expanded .snax-states {
+  overflow: visible;
+  text-align: right;
+  flex-wrap: wrap;
+  background-color: transparent;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+/* line 284, sass/_base.scss */
+.snax .snax-details-expanded .snax-state {
+  font-size: 14px;
+  width: auto;
+  height: auto;
+}
+/* line 290, sass/_base.scss */
+.snax .snax-details-expanded .snax-state-processing,
+.snax .snax-details-expanded .snax-state-success {
+  display: none;
+}
+/* line 295, sass/_base.scss */
+.snax .snax-details-expanded .snax-state-error {
+  display: block;
+  padding-right: 20px;
+  position: relative;
+}
+/* line 300, sass/_base.scss */
+.snax .snax-details-expanded .snax-state-error:before {
+  position: absolute;
+  right: 0;
+  left: auto;
+  width: 8px;
+  height: 8px;
+}
+
+/* line 315, sass/_base.scss */
+.snax-figure-source {
+  font-size: 0;
+}
+/* line 318, sass/_base.scss */
+.snax-figure-source:before {
+  font-size: 13px;
+  content: attr(data-snax-placeholder);
+}
+
+/* line 326, sass/_base.scss */
+.snax-toolbar {
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  text-align: left;
+  background-color: #ccc;
+}
+/* line 340, sass/_base.scss */
+.snax-toolbar > a {
+  display: inline-block;
+  height: 60px;
+  padding: 0 40px;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  border-color: #808080;
+  background-color: #808080;
+  color: #fff;
+  -moz-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+/* line 355, sass/_base.scss */
+.snax-toolbar > a:hover {
+  border-color: #000;
+  background-color: #000;
+  color: #fff;
+}
+/* line 368, sass/_base.scss */
+.snax-toolbar > a:before {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 34px;
+  font-family: "snaxicon";
+  content: "\e024";
+}
+
+/* line 2, sass/_demo.scss */
+.snax .snax-demo-format {
+  display: none;
+  clear: both;
+  text-align: center;
+}
+/* line 7, sass/_demo.scss */
+.snax .snax-demo-format .snax-demo-format-content {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0;
+}
+/* line 15, sass/_demo.scss */
+.snax .snax-demo-format .snax-demo-format-content span {
+  display: inline-block;
+  max-width: 60px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+/* line 23, sass/_demo.scss */
+.snax .snax-demo-format .snax-demo-format-content span > img {
+  display: block;
+  margin: 0;
+}
+/* line 32, sass/_demo.scss */
+.snax .snax-form-frontend-without-media .snax-demo-format {
+  display: block;
+}
+/* line 39, sass/_demo.scss */
+.snax .snax-demo-format-image .snax-demo-format-content,
+.snax .snax-demo-format-embed .snax-demo-format-content {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 52, sass/_demo.scss */
+.snax .snax-demo-format-images .snax-demo-format-content {
+  display: table;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+/* line 61, sass/_demo.scss */
+.snax .snax-demo-format-images .snax-demo-format-content span {
+  position: relative;
+  z-index: 3;
+}
+/* line 66, sass/_demo.scss */
+.snax .snax-demo-format-images .snax-demo-format-content span:nth-child(2) {
+  position: absolute;
+  z-index: 2;
+  right: auto;
+  left: 8px;
+  top: 8px;
+  bottom: auto;
+}
+/* line 74, sass/_demo.scss */
+.snax .snax-demo-format-images .snax-demo-format-content span:nth-child(2) > img {
+  opacity: 0.666;
+}
+/* line 79, sass/_demo.scss */
+.snax .snax-demo-format-images .snax-demo-format-content span:nth-child(3) {
+  position: absolute;
+  z-index: 1;
+  right: auto;
+  left: 0;
+  top: 16px;
+  bottom: auto;
+}
+/* line 87, sass/_demo.scss */
+.snax .snax-demo-format-images .snax-demo-format-content span:nth-child(3) > img {
+  opacity: 0.333;
+}
+/* line 95, sass/_demo.scss */
+.snax .snax-demo-button:after {
+  content: "‹";
+}
+
+/* line 2, sass/_quizzes.scss */
+.snax-quiz-check-answers-hidden {
+  display: none;
+}
+
+/* line 1, sass/_quizzes.progress.scss */
+.snax-quiz-progress {
+  margin: 0 0 1.5em;
+}
+
+/* line 5, sass/_quizzes.progress.scss */
+.snax-quiz-progress-track {
+  overflow-x: hidden;
+  border-radius: 4px;
+  background-color: #e6e6e6;
+}
+
+/* line 12, sass/_quizzes.progress.scss */
+.snax-quiz-progress-bar {
+  background-color: #58cc6e;
+}
+
+/* line 16, sass/_quizzes.progress.scss */
+.snax-quiz-progress-value {
+  padding: 0 0.5em;
+  text-align: left;
+  color: #fff;
+}
+
+/* line 24, sass/_quizzes.progress.scss */
+.snax-quiz-progress-coins:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* line 30, sass/_quizzes.progress.scss */
+.snax-quiz-progress-coin {
+  display: block;
+  float: right;
+  height: 40px;
+  padding: 0 0.333em;
+  margin-left: 5px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: #e6e6e6;
+}
+
+/* line 45, sass/_quizzes.progress.scss */
+.snax-quiz-progress-coin-checked {
+  background-color: #8ac5ff;
+}
+
+/* line 49, sass/_quizzes.progress.scss */
+.snax-quiz-progress-coin-right {
+  background-color: #58cc6e;
+}
+
+/* line 53, sass/_quizzes.progress.scss */
+.snax-quiz-progress-coin-wrong {
+  background-color: #f49595;
+}
+
+/* line 1, sass/_quizzes.questions.scss */
+.snax-quiz-questions-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: snax-quiz-question-counter;
+}
+
+/* line 10, sass/_quizzes.questions.scss */
+.snax-quiz-questions-item {
+  counter-increment: snax-quiz-question-counter;
+}
+
+/* line 14, sass/_quizzes.questions.scss */
+.snax-quiz-question {
+  margin: 0 0 3em;
+}
+
+/* line 20, sass/_quizzes.questions.scss */
+.snax-quiz-question-hidden {
+  display: none;
+}
+
+/* line 26, sass/_quizzes.questions.scss */
+.snax-quiz-question-counter:after {
+  content: ". ";
+}
+
+/* line 31, sass/_quizzes.questions.scss */
+.snax-quiz-question-counter-value:before {
+  content: counter(snax-quiz-question-counter);
+}
+
+/* line 37, sass/_quizzes.questions.scss */
+.snax-quiz-question-title-hide .snax-quiz-question-title {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 1, sass/_quizzes.answers.scss */
+.snax-quiz-answers-items {
+  margin: 0 0 1.5em;
+  list-style: none;
+}
+
+/* line 6, sass/_quizzes.answers.scss */
+.snax-quiz-answer {
+  position: relative;
+  margin: 0 0 5px;
+  padding: 5px;
+  font-size: 1.17em;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #ededed;
+  -moz-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 25, sass/_quizzes.answers.scss */
+.snax-quiz-answer-media {
+  margin: 0 0 5px;
+}
+/* line 28, sass/_quizzes.answers.scss */
+.snax-quiz-answer-media img {
+  display: block;
+  width: 100%;
+}
+
+/* line 36, sass/_quizzes.answers.scss */
+.snax-quiz-answer-label {
+  position: relative;
+  padding: 5px 10px;
+}
+/* line 40, sass/_quizzes.answers.scss */
+.snax-quiz-answer-label:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+/* line 46, sass/_quizzes.answers.scss */
+.snax-quiz-answer-label:before {
+  display: block;
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "snaxicon";
+  text-align: center;
+  border-radius: 50%;
+  content: "";
+  background-color: #fff;
+}
+/* line 66, sass/_quizzes.answers.scss */
+.snax-quiz-answer-label input[type=radio] {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 75, sass/_quizzes.answers.scss */
+.snax-quiz-question-answer-title-hide .snax-quiz-answer-label {
+  font-size: 0;
+}
+
+/* line 80, sass/_quizzes.answers.scss */
+.snax-quiz-answer-checked {
+  background-color: #8ac5ff;
+  color: #fff;
+}
+/* line 85, sass/_quizzes.answers.scss */
+.snax-quiz-answer-checked .snax-quiz-answer-label:before {
+  color: #8ac5ff;
+  content: "\e01c";
+}
+
+/* line 94, sass/_quizzes.answers.scss */
+.snax-quiz-question-reveal-answers .snax-quiz-answer-right {
+  background-color: #58cc6e;
+  color: #fff;
+}
+/* line 99, sass/_quizzes.answers.scss */
+.snax-quiz-question-reveal-answers .snax-quiz-answer-right .snax-quiz-answer-label:before {
+  color: #58cc6e;
+  content: "\e01c";
+}
+
+/* line 110, sass/_quizzes.answers.scss */
+.snax-quiz-question-reveal-answers .snax-quiz-answer-wrong {
+  color: #fff;
+  background-color: #f49595;
+}
+/* line 115, sass/_quizzes.answers.scss */
+.snax-quiz-question-reveal-answers .snax-quiz-answer-wrong .snax-quiz-answer-label:before {
+  color: #f49595;
+  content: "\e01d";
+}
+
+/* line 129, sass/_quizzes.answers.scss */
+.snax-quiz-question-unanswered .snax-quiz-answer {
+  cursor: pointer;
+}
+/* line 132, sass/_quizzes.answers.scss */
+.snax-quiz-question-unanswered .snax-quiz-answer:hover {
+  background-color: #ffe6a1;
+}
+/* line 136, sass/_quizzes.answers.scss */
+.snax-quiz-question-unanswered .snax-quiz-answer label {
+  display: block;
+  cursor: pointer;
+}
+
+/* line 147, sass/_quizzes.answers.scss */
+.snax-quiz-answers-tpl-grid-2 .snax-quiz-answers-items,
+.snax-quiz-answers-tpl-grid-3 .snax-quiz-answers-items {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin: 0 -5px;
+  font-size: 0;
+}
+/* line 163, sass/_quizzes.answers.scss */
+.snax-quiz-answers-tpl-grid-2 .snax-quiz-answers-item,
+.snax-quiz-answers-tpl-grid-3 .snax-quiz-answers-item {
+  display: inline-block;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 50%;
+  padding: 0 5px;
+  margin: 0 0 5px;
+  vertical-align: top;
+  font-size: 1rem;
+}
+/* line 184, sass/_quizzes.answers.scss */
+.snax-quiz-answers-tpl-grid-2 .snax-quiz-answers-item .snax-quiz-answer,
+.snax-quiz-answers-tpl-grid-3 .snax-quiz-answers-item .snax-quiz-answer {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 193, sass/_quizzes.answers.scss */
+  .snax-quiz-answers-tpl-grid-2 .snax-quiz-answers-items,
+  .snax-quiz-answers-tpl-grid-3 .snax-quiz-answers-items {
+    margin: 0 -10px;
+  }
+  /* line 197, sass/_quizzes.answers.scss */
+  .snax-quiz-answers-tpl-grid-2 .snax-quiz-answers-item,
+  .snax-quiz-answers-tpl-grid-3 .snax-quiz-answers-item {
+    padding: 0 10px;
+    margin: 0 0 10px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 206, sass/_quizzes.answers.scss */
+  .snax-quiz-answers-tpl-grid-3 .snax-quiz-answers-item {
+    width: 33.33333%;
+  }
+}
+/* line 1, sass/_quizzes.results.scss */
+.snax-quiz-results-hidden {
+  display: none;
+}
+
+/* line 5, sass/_quizzes.results.scss */
+.snax-quiz-result {
+  margin: 0 0 3em;
+  position: relative;
+  z-index: 0;
+}
+/* line 12, sass/_quizzes.results.scss */
+.snax-quiz-result:before {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background-color: currentColor;
+  opacity: 0.0866;
+}
+
+/* line 28, sass/_quizzes.results.scss */
+.snax-quiz-result-locked {
+  text-align: center;
+}
+
+/* line 32, sass/_quizzes.results.scss */
+.snax-quiz-result-header {
+  padding: 30px 30px 0;
+  text-align: center;
+}
+
+/* line 38, sass/_quizzes.results.scss */
+.snax-quiz-result-media {
+  margin: 0 auto;
+}
+/* line 41, sass/_quizzes.results.scss */
+.snax-quiz-result-media img {
+  display: block;
+}
+
+/* line 46, sass/_quizzes.results.scss */
+.snax-quiz-result-body {
+  padding: 30px;
+}
+
+/* line 50, sass/_quizzes.results.scss */
+.snax-quiz-result-header + .snax-quiz-result-body {
+  padding-top: 0;
+}
+
+/* line 54, sass/_quizzes.results.scss */
+.snax-quiz-result-share {
+  text-align: center;
+}
+
+/* line 22, sass/_quizzes.scss */
+.snax-quiz-actions {
+  text-align: center;
+}
+
+/* line 26, sass/_quizzes.scss */
+.snax-quiz-actions-hidden {
+  display: none;
+}
+
+/* line 30, sass/_quizzes.scss */
+.snax-quiz-button-start-quiz,
+.snax-quiz-button-restart-quiz {
+  width: 100%;
+}
+
+/* line 41, sass/_quizzes.scss */
+.quizzard-share {
+  display: block;
+  box-sizing: border-box;
+  border-width: 2px;
+  margin: 0 auto;
+  text-align: center;
+  border-style: solid;
+  color: #fff;
+}
+/* line 53, sass/_quizzes.scss */
+.quizzard-share:before {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  color: inherit;
+  /* Just in case (Avada styles pseudo elements) */
+  font: 18px/1 "snaxicon";
+}
+
+/* line 64, sass/_quizzes.scss */
+.quizzard-share-facebook {
+  border-color: #2d5f9a;
+  background-color: #2d5f9a;
+}
+/* line 68, sass/_quizzes.scss */
+.quizzard-share-facebook:before {
+  content: "";
+}
+
+/* line 73, sass/_quizzes.scss */
+.quizzard-share-twitter {
+  border-color: #00c3f3;
+  background-color: #00c3f3;
+}
+/* line 77, sass/_quizzes.scss */
+.quizzard-share-twitter:before {
+  content: "";
+}
+
+/* line 82, sass/_quizzes.scss */
+.quizzard-share-pinterest {
+  border-color: #bd081c;
+  background-color: #bd081c;
+}
+/* line 86, sass/_quizzes.scss */
+.quizzard-share-pinterest:before {
+  content: "";
+}
+
+/* line 95, sass/_quizzes.scss */
+.snax-quiz-intro-wrapper .snax-quiz-actions {
+  display: none;
+}
+
+/* line 104, sass/_quizzes.scss */
+.snax-quiz-with-start-trigger .snax-quiz-intro-wrapper .snax-quiz-actions {
+  display: block;
+}
+/* line 109, sass/_quizzes.scss */
+.snax-quiz-with-start-trigger .snax-quiz-questions-wrapper,
+.snax-quiz-with-start-trigger .snax-quiz-results,
+.snax-quiz-with-start-trigger .snax-quiz-pagination {
+  display: none;
+}
+
+/* line 29, sass/_forms.new.quiz.scss */
+.quizzard-icon {
+  display: inline-block;
+  height: 36px;
+  font-size: 0;
+  line-height: 36px;
+  text-decoration: none;
+}
+/* line 36, sass/_forms.new.quiz.scss */
+.quizzard-icon:before {
+  display: block;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: snaxicon;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  content: '\f014';
+}
+
+/* line 56, sass/_forms.new.quiz.scss */
+a.quizzard-icon {
+  color: #777;
+}
+/* line 59, sass/_forms.new.quiz.scss */
+a.quizzard-icon:hover {
+  color: #333;
+}
+
+/* line 67, sass/_forms.new.quiz.scss */
+.quizzard-icon-delete:before {
+  content: "\e005";
+}
+
+/* line 71, sass/_forms.new.quiz.scss */
+.quizzard-icon-toggle:before {
+  font-family: snaxicon;
+  font-size: 17px;
+  content: "\e022";
+}
+
+/* line 80, sass/_forms.new.quiz.scss */
+.quizzard-state-highlight {
+  height: 84px;
+  border-width: 1px;
+  border-style: dashed;
+  opacity: 0.1667;
+}
+
+/* Tabs */
+/* line 91, sass/_forms.new.quiz.scss */
+.quizzard-tab-wrapper {
+  margin-top: 20px;
+}
+
+/* line 95, sass/_forms.new.quiz.scss */
+.quizzard-tab-content {
+  display: none;
+}
+
+/* line 99, sass/_forms.new.quiz.scss */
+.quizzard-tab-content-active {
+  display: block;
+}
+
+/**
+* Questions.
+*/
+/* line 110, sass/_forms.new.quiz.scss */
+.quizzard-questions-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0 20px;
+}
+/* line 129, sass/_forms.new.quiz.scss */
+.quizzard-questions-header h2 {
+  display: none;
+  float: right;
+  margin: 0 0 20px 30px;
+}
+/* line 136, sass/_forms.new.quiz.scss */
+.quizzard-questions-header .button {
+  padding: 2px 6px;
+  border-width: 1px;
+  margin: 0;
+  font-size: 0.83em;
+  border-style: solid;
+  border-radius: 3px;
+  color: inherit;
+}
+/* line 149, sass/_forms.new.quiz.scss */
+.quizzard-questions-header .button-disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+/* line 155, sass/_forms.new.quiz.scss */
+.quizzard-questions-header .quizzard-questions-collapse-all {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* line 160, sass/_forms.new.quiz.scss */
+.quizzard-questions-header .quizzard-questions-expand-all {
+  margin-right: -1px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 168, sass/_forms.new.quiz.scss */
+  .quizzard-questions-header {
+    margin-bottom: 10px;
+  }
+}
+/* line 175, sass/_forms.new.quiz.scss */
+.quizzard-q-items {
+  margin: 0 0 45px;
+  padding: 0;
+  list-style: none;
+  counter-reset: quizzard-q-items;
+}
+
+/* line 184, sass/_forms.new.quiz.scss */
+.quizzard-q-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+/* line 188, sass/_forms.new.quiz.scss */
+.quizzard-q-item + .quizzard-next-q-item {
+  margin-top: 30px;
+}
+
+/* line 196, sass/_forms.new.quiz.scss */
+.quizzard-answer-media-empty .quizzard-delete {
+  display: none;
+}
+
+/**
+ * Single question.
+ */
+/* line 203, sass/_forms.new.quiz.scss */
+.quizzard-question {
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
+}
+/* line 8, sass/_forms.new.quiz.scss */
+.quizzard-question:before {
+  display: block;
+  border-width: 1px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-style: solid;
+  content: "";
+  opacity: 0.1667;
+}
+
+/* line 209, sass/_forms.new.quiz.scss */
+.quizzard-question-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 18px 12px;
+  border-bottom: 1px solid #eee;
+}
+/* line 223, sass/_forms.new.quiz.scss */
+.quizzard-question-header:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 231, sass/_forms.new.quiz.scss */
+  .quizzard-question-header {
+    padding: 12px;
+  }
+}
+/* line 241, sass/_forms.new.quiz.scss */
+.quizzard-question-position {
+  overflow: hidden;
+  width: 20px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  left: 0;
+  top: -10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+}
+/* line 262, sass/_forms.new.quiz.scss */
+.quizzard-question-position:before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #e6e6e6;
+  color: #999;
+  content: "";
+}
+/* line 281, sass/_forms.new.quiz.scss */
+.quizzard-question-position:after {
+  position: relative;
+  z-index: 2;
+  counter-increment: quizzard-q-items;
+  content: counter(quizzard-q-items);
+}
+@media only screen and (min-width: 1025px) {
+  /* line 291, sass/_forms.new.quiz.scss */
+  .quizzard-question-position {
+    width: 60px;
+    margin-left: 10px;
+    position: static;
+    font-size: 24px;
+    line-height: 60px;
+  }
+  /* line 300, sass/_forms.new.quiz.scss */
+  .quizzard-question-position:before {
+    display: none;
+  }
+}
+
+/* line 314, sass/_forms.new.quiz.scss */
+.quizzard-question-thumbnail {
+  display: none;
+  float: right;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-left: 12px;
+}
+/* line 328, sass/_forms.new.quiz.scss */
+.quizzard-question-thumbnail:before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background-color: currentColor;
+  opacity: 0.1667;
+}
+/* line 344, sass/_forms.new.quiz.scss */
+.quizzard-question-thumbnail:after {
+  display: block;
+  width: 1em;
+  height: 1em;
+  margin: -0.5em 0 0 -0.5em;
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  left: auto;
+  top: 50%;
+  font-size: 17px;
+  line-height: 1;
+  font-family: snaxicon;
+  text-align: center;
+  content: "\e01e";
+  opacity: 0.666;
+}
+/* line 367, sass/_forms.new.quiz.scss */
+.quizzard-question-thumbnail img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 380, sass/_forms.new.quiz.scss */
+  .quizzard-question-thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* line 388, sass/_forms.new.quiz.scss */
+.quizzard-question-title {
+  display: block;
+  flex-grow: 1;
+  float: right;
+  width: 75%;
+  height: 1.5em;
+  padding: 3px 8px;
+  margin: 0 0 0 4px;
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+/* line 403, sass/_forms.new.quiz.scss */
+.quizzard-question-title-yo {
+  display: none;
+  flex-grow: 1;
+  margin: 0;
+}
+
+/* line 411, sass/_forms.new.quiz.scss */
+.quizzard-question-media {
+  position: relative;
+  min-height: 108px;
+  background-color: #e6e6e6;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset;
+}
+/* line 418, sass/_forms.new.quiz.scss */
+.quizzard-question-media:before {
+  display: block;
+  width: 1em;
+  height: 1em;
+  margin: -0.5em 0 0 -0.5em;
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  left: auto;
+  top: 50%;
+  font-size: 34px;
+  line-height: 1;
+  font-family: snaxicon;
+  text-align: center;
+  content: "\e01e";
+  color: #ccc;
+}
+/* line 441, sass/_forms.new.quiz.scss */
+.quizzard-question-media img {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+
+/* line 457, sass/_forms.new.quiz.scss */
+.quizzard-question-delete-media {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: 0;
+}
+/* line 464, sass/_forms.new.quiz.scss */
+.quizzard-question-with-media .quizzard-question-delete-media {
+  display: block;
+}
+
+/* Next question */
+/* line 475, sass/_forms.new.quiz.scss */
+.quizzard-next-question {
+  position: relative;
+  z-index: 0;
+  box-shadow: none;
+}
+/* line 482, sass/_forms.new.quiz.scss */
+.quizzard-next-question .quizzard-question-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 492, sass/_forms.new.quiz.scss */
+.quizzard-next-question .quizzard-question-header .quizzard-question-title {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-left: 6px;
+}
+
+/* Collapsed question */
+/* line 504, sass/_forms.new.quiz.scss */
+.quizzard-question-collapsed .quizzard-question-header {
+  cursor: move;
+}
+/* line 508, sass/_forms.new.quiz.scss */
+.quizzard-question-collapsed .quizzard-question-title,
+.quizzard-question-collapsed .quizzard-question-body {
+  display: none;
+}
+/* line 513, sass/_forms.new.quiz.scss */
+.quizzard-question-collapsed .quizzard-question-thumbnail,
+.quizzard-question-collapsed .quizzard-question-title-yo,
+.quizzard-question-collapsed .quizzard-next-question .quizzard-question-title {
+  display: block;
+}
+
+/* line 1, sass/_forms.new.quiz.answers.scss */
+.quizzard-items {
+  clear: both;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 7, sass/_forms.new.quiz.answers.scss */
+.quizzard-item {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 2px;
+}
+
+/* line 13, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers {
+  padding: 24px 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 18, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers {
+    padding-right: 74px;
+  }
+}
+/**
+ * Answers.
+ */
+/* line 26, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 30, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header h3 {
+  margin: 0 0 10px;
+}
+/* line 34, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radios {
+  font-size: 0;
+}
+/* line 38, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio {
+  display: inline-block;
+  margin-right: -1px;
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* line 49, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio:first-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* line 54, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio:last-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 59, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio input[type=radio] {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  cursor: pointer;
+}
+/* line 66, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio span {
+  display: block;
+  padding: 4px 20px;
+  font-size: 0;
+  opacity: 0.5;
+  border-radius: inherit;
+}
+/* line 76, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio span:before {
+  display: block;
+  font-size: 17px;
+  line-height: 1;
+  font-family: snaxicon;
+  content: "\e01e";
+}
+/* line 85, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio span:after {
+  display: block;
+  border-width: 1px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-style: solid;
+  border-radius: inherit;
+  content: "";
+}
+/* line 102, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .snax-icon-radio input[type=radio]:checked + span {
+  opacity: 0.999;
+}
+/* line 107, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .quizzard-answers-label-text span:before {
+  content: "\e01f";
+}
+/* line 108, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .quizzard-answers-label-grid-2 span:before {
+  content: "\e020";
+}
+/* line 109, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-header .quizzard-answers-label-grid-3 span:before {
+  content: "\e021";
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 114, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-header .snax-icon-radios {
+    width: 100%;
+  }
+  /* line 118, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-header .snax-icon-radio {
+    width: 33.33333%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 125, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-header {
+    margin-bottom: 10px;
+  }
+  /* line 128, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-header h3 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    float: right;
+  }
+}
+/**
+ * Single answer.
+ */
+/* line 146, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  padding: 12px;
+  cursor: move;
+  background: #f1f1f1;
+}
+
+/* line 160, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-header {
+  position: relative;
+}
+
+/* line 165, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-with-media .quizzard-answer {
+  padding: 0;
+}
+/* line 169, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-with-media .quizzard-answer-header {
+  min-height: 36px;
+  padding: 0 12px;
+}
+/* line 174, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-with-media .quizzard-answer-body {
+  padding: 12px;
+}
+
+/* line 179, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-correct-label {
+  white-space: nowrap;
+}
+
+/* Next answer */
+/* line 189, sass/_forms.new.quiz.answers.scss */
+.quizzard-next-answer .quizzard-answer-body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 202, sass/_forms.new.quiz.answers.scss */
+.quizzard-next-answer .quizzard-answer-body .quizzard-answer-title {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-left: 6px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 216, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-with-media .quizzard-items {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  /* line 233, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-with-media .quizzard-item {
+    display: inline-block;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    max-width: 300px;
+    width: 50%;
+    padding: 0 10px;
+    margin: 0 0 20px;
+    vertical-align: top;
+  }
+
+  /* line 255, sass/_forms.new.quiz.answers.scss */
+  .quizzard-answers-with-media-3 .quizzard-item {
+    width: 33.33333%;
+  }
+}
+/* line 263, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-delete {
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+}
+
+/* line 270, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-media {
+  overflow: hidden;
+  height: 0;
+  min-height: 0 !important;
+  padding-bottom: 100%;
+  position: relative;
+  z-index: 0;
+  min-height: 108px;
+}
+/* line 284, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-media:before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background-color: currentColor;
+  opacity: 0.1667;
+}
+/* line 300, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-media:after {
+  display: block;
+  width: 1em;
+  height: 1em;
+  margin: -0.5em 0 0 -0.5em;
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  left: auto;
+  top: 50%;
+  font-size: 34px;
+  line-height: 1;
+  font-family: snaxicon;
+  text-align: center;
+  content: "\e01e";
+  opacity: 0.666;
+}
+/* line 323, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+
+/* line 337, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-delete-media {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: auto;
+  bottom: 0;
+}
+/* line 345, sass/_forms.new.quiz.answers.scss */
+.quizzard-answer-with-media .quizzard-answer-delete-media {
+  display: inline-block;
+}
+
+/* line 357, sass/_forms.new.quiz.answers.scss */
+.quizzard-next-answer .quizzard-answer-media {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* line 365, sass/_forms.new.quiz.answers.scss */
+.quizzard-answers-without-media .quizzard-answer-media {
+  display: none;
+}
+
+/**
+ * Results.
+ */
+/* line 4, sass/_forms.new.quiz.results.scss */
+.quizzard-results-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 30px 0px 15px;
+}
+/* line 19, sass/_forms.new.quiz.results.scss */
+.quizzard-results-header h2 {
+  display: none;
+  float: right;
+  margin: 0 0 20px 30px;
+}
+/* line 26, sass/_forms.new.quiz.results.scss */
+.quizzard-results-header .button {
+  margin: 0 3px;
+}
+
+/* line 35, sass/_forms.new.quiz.results.scss */
+.quizzard-r-items {
+  clear: both;
+  margin: 0 0 45px;
+  padding: 0;
+  list-style: none;
+  counter-reset: quizzard-r-items;
+}
+
+/* line 46, sass/_forms.new.quiz.results.scss */
+.quizzard-r-item {
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 50, sass/_forms.new.quiz.results.scss */
+.quizzard-r-item + .quizzard-next-r-item {
+  margin-top: 20px;
+}
+
+/**
+ * Single result.
+ */
+/* line 62, sass/_forms.new.quiz.results.scss */
+.quizzard-result {
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
+}
+/* line 8, sass/_forms.new.quiz.scss */
+.quizzard-result:before {
+  display: block;
+  border-width: 1px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-style: solid;
+  content: "";
+  opacity: 0.1667;
+}
+
+/* line 66, sass/_forms.new.quiz.results.scss */
+.quizzard-result-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+/* line 78, sass/_forms.new.quiz.results.scss */
+.quizzard-result-header:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* line 88, sass/_forms.new.quiz.results.scss */
+.quizzard-result-range {
+  display: none;
+  width: 120px;
+  margin-left: 10px;
+  font-size: 1.17em;
+  line-height: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 101, sass/_forms.new.quiz.results.scss */
+.quizzard-result-range-high:after {
+  content: "%";
+}
+
+/* line 105, sass/_forms.new.quiz.results.scss */
+.quizzard-result-range-edit {
+  margin-left: 10px;
+}
+/* line 108, sass/_forms.new.quiz.results.scss */
+.quizzard-result-range-edit:after {
+  content: "%";
+}
+
+/* line 114, sass/_forms.new.quiz.results.scss */
+input.quizzard-result-range-low,
+input.quizzard-result-range-high {
+  width: 5em;
+}
+
+/* line 120, sass/_forms.new.quiz.results.scss */
+.quizzard-result-collapsed .quizzard-result-range {
+  display: block;
+}
+/* line 124, sass/_forms.new.quiz.results.scss */
+.quizzard-result-collapsed .quizzard-result-range-edit {
+  display: none;
+}
+
+/* line 134, sass/_forms.new.quiz.results.scss */
+.quizzard-result-thumbnail {
+  display: none;
+  float: right;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-left: 12px;
+}
+/* line 145, sass/_forms.new.quiz.results.scss */
+.quizzard-result-thumbnail:before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background-color: currentColor;
+  opacity: 0.1667;
+}
+/* line 160, sass/_forms.new.quiz.results.scss */
+.quizzard-result-thumbnail:after {
+  display: block;
+  width: 1em;
+  height: 1em;
+  margin: -0.5em 0 0 -0.5em;
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  left: auto;
+  top: 50%;
+  font-size: 17px;
+  line-height: 1;
+  font-family: snaxicon;
+  text-align: center;
+  content: "\e01e";
+  opacity: 0.666;
+}
+/* line 183, sass/_forms.new.quiz.results.scss */
+.quizzard-result-thumbnail img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 195, sass/_forms.new.quiz.results.scss */
+  .quizzard-result-thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* line 206, sass/_forms.new.quiz.results.scss */
+.quizzard-result-title-yo {
+  display: none;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+/* line 216, sass/_forms.new.quiz.results.scss */
+.quizzard-result-body {
+  padding: 12px;
+}
+
+/* line 220, sass/_forms.new.quiz.results.scss */
+.quizzard-result-media {
+  position: relative;
+  min-height: 108px;
+}
+/* line 225, sass/_forms.new.quiz.results.scss */
+.quizzard-result-media:before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background-color: currentColor;
+  opacity: 0.1667;
+}
+/* line 240, sass/_forms.new.quiz.results.scss */
+.quizzard-result-media:after {
+  display: block;
+  width: 1em;
+  height: 1em;
+  margin: -0.5em 0 0 -0.5em;
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  left: auto;
+  top: 50%;
+  font-size: 34px;
+  line-height: 1;
+  font-family: snaxicon;
+  text-align: center;
+  content: "\e022";
+  opacity: 0.666;
+}
+/* line 263, sass/_forms.new.quiz.results.scss */
+.quizzard-result-media img {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+
+/* line 279, sass/_forms.new.quiz.results.scss */
+.quizzard-result-delete-media {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: 0;
+}
+/* line 286, sass/_forms.new.quiz.results.scss */
+.quizzard-result-with-media .quizzard-result-delete-media {
+  display: block;
+}
+
+/* line 294, sass/_forms.new.quiz.results.scss */
+.quizzard-result-title {
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  float: right;
+}
+
+/* line 304, sass/_forms.new.quiz.results.scss */
+.quizzard-result-description {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* line 312, sass/_forms.new.quiz.results.scss */
+.quizzard-result-media-empty .quizzard-delete {
+  display: none;
+}
+
+/* Next result */
+/* line 317, sass/_forms.new.quiz.results.scss */
+.quizzard-next-result {
+  position: relative;
+  z-index: 0;
+  box-shadow: none;
+}
+/* line 323, sass/_forms.new.quiz.results.scss */
+.quizzard-next-result .quizzard-result-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 332, sass/_forms.new.quiz.results.scss */
+.quizzard-next-result .quizzard-result-header .quizzard-result-title {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-left: 6px;
+}
+
+/* Collapsed result */
+/* line 346, sass/_forms.new.quiz.results.scss */
+.quizzard-result-collapsed .quizzard-result-header {
+  cursor: move;
+}
+/* line 350, sass/_forms.new.quiz.results.scss */
+.quizzard-result-collapsed .quizzard-result-title,
+.quizzard-result-collapsed .quizzard-result-body {
+  display: none;
+}
+/* line 355, sass/_forms.new.quiz.results.scss */
+.quizzard-result-collapsed .quizzard-result-thumbnail,
+.quizzard-result-collapsed .quizzard-result-title-yo,
+.quizzard-result-collapsed .quizzard-next-result .quizzard-result-title {
+  display: block;
+}

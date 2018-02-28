@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "snaxicon";
+    src:url("../../../../assets/snaxicon/fonts/snaxicon.eot");
+    src:url("../../../../assets/snaxicon/fonts/snaxicon.eot?#iefix") format("embedded-opentype"),
+    url("../../../../assets/snaxicon/fonts/snaxicon.woff") format("woff"),
+    url("../../../../assets/snaxicon/fonts/snaxicon.ttf") format("truetype"),
+    url("../../../../assets/snaxicon/fonts/snaxicon.svg#snaxicon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.snax-admin-status {
+    position: relative;
+    padding-left: 16px;
+}
+
+.snax-admin-status:before {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+
+    position: absolute;
+    left: 0;
+    top: 6px;
+
+    border-radius: 50%;
+
+    content: "";
+ }
+
+.snax-admin-status-submissions-open:before,
+.snax-admin-status-voting-open:before {
+    background: green;
+}
+
+.snax-admin-status-submissions-closed:before,
+.snax-admin-status-voting-closed:before {
+    background: red;
+}
+
+.snax-list-visibility-standard {
+    display: block;
+}
+
+.snax-list-visibility-none {
+    display: none;
+}
+
+.snax-visible {
+    visibility: visible;
+}
+
+.snax-hidden {
+    visibility: hidden;
+}
+
+.snax-media-wrappers {
+
+}
+
+.snax-media-wrapper {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 30px;
+
+    vertical-align: top;
+}
+
+.snax-media-preview img {
+    padding: 5px;
+
+    border-width: 1px;
+    border-style: solid;
+
+    border-color: #e6e6e6;
+    background-color: #fff;
+}
+
+.snax-media-wrapper .snax-hidden {
+    display: none;
+}
+
+
+#snax-metabox-options-forms {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#snax-metabox-options-forms label {
+    display: block;
+}
+
+.snax-forms-visibility-none {
+    display: none;
+}

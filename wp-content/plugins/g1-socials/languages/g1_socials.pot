@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the g1-socials package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: g1-socials 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: g1-socials/g1-socials-admin.php:46 g1-socials/g1-socials-admin.php:47
+#: g1-socials/tpl_admin.php:6
+msgid "G1 Socials"
+msgstr ""
+
+#: g1-socials/g1-socials-admin.php:76
+msgid "label"
+msgstr ""
+
+#: g1-socials/g1-socials-admin.php:77
+msgid "caption"
+msgstr ""
+
+#: g1-socials/includes/shortcodes/shortcodes.php:171
+msgid "list-vertical"
+msgstr ""
+
+#: g1-socials/includes/shortcodes/shortcodes.php:172
+msgid "list-horizontal"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:18
+msgid "A Socials Widget"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:101
+msgid "Widget Title"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:107
+msgid "Include (optional)"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:109
+msgid ""
+"Include only specified icons (eg. facebook,twitter). Leave empty to include "
+"all."
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:113
+msgid "Exclude (optional)"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:115
+msgid "Exclude specified icons (eg. facebook,twitter)."
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:119
+msgid "Template"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:121
+msgid "grid"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:126
+msgid "Icon size"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:128
+msgid "32px"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:129
+msgid "48px"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:130
+msgid "64px"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:135
+msgid "Icon color"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:137
+msgid "original"
+msgstr ""
+
+#: g1-socials/includes/widgets/widgets.php:138
+msgid "text"
+msgstr ""
+
+#: g1-socials/tpl_admin.php:14
+msgid "Name"
+msgstr ""
+
+#: g1-socials/tpl_admin.php:15
+msgid "Label"
+msgstr ""
+
+#: g1-socials/tpl_admin.php:16
+msgid "Caption"
+msgstr ""
+
+#: g1-socials/tpl_admin.php:17
+msgid "Link"
+msgstr ""
+
+#: g1-socials/tpl_admin.php:30
+msgid "Save Changes"
+msgstr ""
+
+#: g1-socials/tpl_admin_item.php:9
+msgid "label&hellip;"
+msgstr ""
+
+#: g1-socials/tpl_admin_item.php:12
+msgid "caption&hellip;"
+msgstr ""
+
+#: g1-socials/tpl_admin_item.php:15
+msgid "link&hellip;"
+msgstr ""
